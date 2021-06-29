@@ -17,11 +17,14 @@
 
 [<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />]
 [<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" />]
-[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
-
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg"/>]
+[<img align="left" alt="python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"/>]
+[<img align="left" alt="python" width="26px" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>]
 [<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
-[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"/>]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-plain.svg"/>]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-original.svg"/>]
+
 
 
 
