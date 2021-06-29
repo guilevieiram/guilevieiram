@@ -30,7 +30,7 @@
 
 [github]: https://github.com/guilevieiram
 [twitter]: https://twitter.com/guilevieiram
-[instagram]: https://instagram.com/guilemvieira
+[instagram]: https://instagram.com/guilevieiram
 [linkedin]: https://linkedin.com/in/guilhermevieiram
 [python]: https://www.python.org/
 [jupyter]:https://jupyter.org/
