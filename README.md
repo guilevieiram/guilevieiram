@@ -16,6 +16,13 @@
 ### Languages and Tools:
 
 [<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" />]
+[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
+
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"/>]
+[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
+[<img align="left" alt="python" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css" />]
+
 
 
 [twitter]: https://twitter.com/guilevieira
