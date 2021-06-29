@@ -15,15 +15,15 @@
 
 ### Languages and Tools:
 
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" />]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"/>]
-[<img align="left" alt="python" width="26px" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-plain.svg"/>]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-original.svg"/>]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />][python]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" />][jupyter]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg"/>][flask]
+[<img align="left" alt="python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"/>][sklearn]
+[<img align="left" alt="python" width="26px" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>][pandas]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"/>][postgresql]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"/>][html]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-plain.svg"/>][linux]
+[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-original.svg"/>][matlab]
 
 
 
@@ -31,3 +31,12 @@
 [twitter]: https://twitter.com/guilevieira
 [instagram]: https://instagram.com/guilemvieira
 [linkedin]: https://linkedin.com/in/guilhermevieiram
+[python]: https://www.python.org/
+[jupyter]:https://jupyter.org/
+[flask]:https://flask.palletsprojects.com/en/2.0.x/
+[sklearn]: https://scikit-learn.org/stable/
+[pandas]:https://pandas.pydata.org/ 
+[postgresql]: https://www.postgresql.org/
+[html]: https://en.wikipedia.org/wiki/HTML5
+[linux]: https://ubuntu.com/
+[matlab]: https://www.mathworks.com/products/matlab.html
