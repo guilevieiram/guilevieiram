@@ -28,8 +28,8 @@
 
 
 
-[github]: https://github.com/guilherme-vieira
-[twitter]: https://twitter.com/guilevieira
+[github]: https://github.com/guilevieiram
+[twitter]: https://twitter.com/guilevieiram
 [instagram]: https://instagram.com/guilemvieira
 [linkedin]: https://linkedin.com/in/guilhermevieiram
 [python]: https://www.python.org/
