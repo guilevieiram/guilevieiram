@@ -7,6 +7,7 @@
 
 ### Connect with me:
 
+[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
 [<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
@@ -27,7 +28,7 @@
 
 
 
-
+[github]: https://github.com/guilherme-vieira
 [twitter]: https://twitter.com/guilevieira
 [instagram]: https://instagram.com/guilemvieira
 [linkedin]: https://linkedin.com/in/guilhermevieiram
