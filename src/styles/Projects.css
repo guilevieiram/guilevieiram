@@ -1,0 +1,18 @@
+.Projects {
+    margin: 20vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cards-container {
+    margin: 5rem auto;
+    width: 90vw;
+    max-width: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

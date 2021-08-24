@@ -1,0 +1,9 @@
+.Contact {
+    width: 90vw;
+    max-width: 70rem;
+    margin: auto;
+    padding-top: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

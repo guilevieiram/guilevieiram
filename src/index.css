@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+* {
+	--background-color: #242424;
+	--primary-color: #EBEBEB;
+	--highlight-color-1: #EE7400;
+	--highlight-color-2: #1B98E0;
+	--highlight-color-3: #2A9D8F;
+
+}
+
+body {
+	color: var(--primary-color);
+	font-weight: normal;
+	font-weight: 200;
+  	margin: 0;
+  	font-family: 
+    	'Poppins',
+    	sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, 
+h2, 
+h3 {
+	color: var(--highlight-color-1);
+	font-weight: normal;
+	font-family: 
+		'Source Code Pro',
+		monospace;
+}
+
+a, button {
+	cursor: pointer;
+	text-decoration: none;
+	color: var(--primary-color);
+}

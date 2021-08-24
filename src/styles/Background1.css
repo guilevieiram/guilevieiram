@@ -1,0 +1,30 @@
+.Background1 img {
+    transform: scale(0.6);
+}
+
+.blob-top-blue,
+.blob-top-orange {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -50%);
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+
+}
+
+.blob-bottom-blue,
+.blob-bottom-orange {
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    transform: translate(-60%, -50%);
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+
+}
+
+.arrows {
+    position: absolute;
+    top: 90vh;
+    left: 90vw;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,15 @@
+.BallsBackground {
+    position: absolute;
+    left: 0;
+    bottom: 100vh;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.balls {
+    overflow: hidden;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    z-index: 0;
+
+}
