@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.cbb05ac2.chunk.css",
+    "main.js": "/portifolio/static/js/main.e9c411b8.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.e9c411b8.chunk.js.map",
+    "runtime-main.js": "/portifolio/static/js/runtime-main.20a66d69.js",
+    "runtime-main.js.map": "/portifolio/static/js/runtime-main.20a66d69.js.map",
+    "static/js/2.f0f467e0.chunk.js": "/portifolio/static/js/2.f0f467e0.chunk.js",
+    "static/js/2.f0f467e0.chunk.js.map": "/portifolio/static/js/2.f0f467e0.chunk.js.map",
+    "static/js/3.05f1fe0d.chunk.js": "/portifolio/static/js/3.05f1fe0d.chunk.js",
+    "static/js/3.05f1fe0d.chunk.js.map": "/portifolio/static/js/3.05f1fe0d.chunk.js.map",
+    "index.html": "/portifolio/index.html",
+    "static/css/main.cbb05ac2.chunk.css.map": "/portifolio/static/css/main.cbb05ac2.chunk.css.map",
+    "static/js/2.f0f467e0.chunk.js.LICENSE.txt": "/portifolio/static/js/2.f0f467e0.chunk.js.LICENSE.txt",
+    "static/media/balls-background.983c4853.png": "/portifolio/static/media/balls-background.983c4853.png",
+    "static/media/blob-social-blue.25ee7b81.png": "/portifolio/static/media/blob-social-blue.25ee7b81.png",
+    "static/media/blob-social-orange.bade9452.png": "/portifolio/static/media/blob-social-orange.bade9452.png",
+    "static/media/card-test.d0bc87ec.jpg": "/portifolio/static/media/card-test.d0bc87ec.jpg",
+    "static/media/nav-background-blue.e84310dc.png": "/portifolio/static/media/nav-background-blue.e84310dc.png",
+    "static/media/nav-background-orange.7b6db583.png": "/portifolio/static/media/nav-background-orange.7b6db583.png",
+    "static/media/profile-pic.c9f81a62.jpg": "/portifolio/static/media/profile-pic.c9f81a62.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20a66d69.js",
+    "static/js/2.f0f467e0.chunk.js",
+    "static/css/main.cbb05ac2.chunk.css",
+    "static/js/main.e9c411b8.chunk.js"
+  ]
+}
