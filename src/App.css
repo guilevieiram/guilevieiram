@@ -1,11 +1,11 @@
 .App {
   background-color: var(--background-color);
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
 .page {
-  height: 100vh;
+  min-height: 100vh;
   padding: 0;
   position: relative;
   overflow-x: hidden;

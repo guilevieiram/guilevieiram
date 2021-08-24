@@ -1,9 +1,13 @@
 .SocialMedia {
-    height: 50vh;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.SocialMedia * {
+    z-index: 2;
 }
 
 .social-media-column {
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;

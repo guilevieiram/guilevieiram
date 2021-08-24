@@ -9,6 +9,7 @@ import BallsBackground from './components/BallsBackground'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BackgroundContact from './components/BackgroundContact';
 
 function App() {
   	return (
@@ -42,10 +43,15 @@ function App() {
 			
 			<Projects />
 
+
 			<div className="page">
 				<Contact />
-				<Footer />
 			</div>
+			
+			<BackgroundContact />
+
+			<Footer />
+
 
 
     	</div>

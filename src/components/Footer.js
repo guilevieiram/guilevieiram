@@ -4,15 +4,13 @@ function Footer() {
     return (
         <div className="Footer" style={{
             height: '10vh',
-            width: '20vw',
+            width: '100vw',
             minWidth: '20rem',
-            position: 'absolute',
-            bottom: '0',
-            left: '0',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center'
-
+            justifyContent: 'center',
+            backgroundColor: 'rgba(20,20,20,1)',
+            filter: 'drop-shadow(0 0 15px rgb(0, 0, 0))'
         }}>
             <p style={{
                 fontSize: '0.8rem'

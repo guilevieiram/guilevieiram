@@ -1,9 +1,11 @@
 .Contact {
     width: 90vw;
-    max-width: 70rem;
-    margin: auto;
-    padding-top: 30vh;
+    margin: 10vh auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.message-container {
+    margin: auto 0 auto 5vw;
 }

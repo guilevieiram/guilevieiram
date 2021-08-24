@@ -1,7 +1,9 @@
 import React from 'react';
 
 import '../styles/SocialMedia.css';
+
 import facebook from '../images/facebook.png';
+
 
 function SocialMedia() {
     return (
@@ -11,12 +13,12 @@ function SocialMedia() {
                     <a href="/">/guilhermevieira</a>
                     <img src={facebook} alt="" />
                 </div>
-
                 <div className="social-media-row">
-                    <a href="/">/guilhermevieirasdfadfa</a>
+                    <a href="/">@guilhermevieirasdfadfa</a>
                     <img src={facebook} alt="" />
-                </div>                <div className="social-media-row">
-                    <a href="/">/guilhermeira</a>
+                </div>                
+                <div className="social-media-row">
+                    <a href="/">.guilhermeira</a>
                     <img src={facebook} alt="" />
                 </div>
             </div>
