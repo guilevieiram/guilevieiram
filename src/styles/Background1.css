@@ -30,3 +30,33 @@
     filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
 
 }
+
+.arrows-mobile {
+    display: none;
+    text-align: center;
+}
+.arrows-mobile p {
+    font-size: 1rem;
+}
+.arrows-mobile img {
+    margin: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .blob-top-blue,
+    .blob-top-orange{
+        display: none;
+    }
+    .blob-bottom-blue,
+    .blob-bottom-orange{
+        top: 80vh;
+        transform: translate(-60%, -50%) scale(0.8);
+    }
+    .arrows {
+        top: 95vh;
+        display: none;
+    }
+    .arrows-mobile{
+        display: block;
+    }
+}   

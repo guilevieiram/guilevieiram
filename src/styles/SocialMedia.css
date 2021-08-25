@@ -1,6 +1,6 @@
 .SocialMedia {
     height: 60vh;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .SocialMedia * {
@@ -29,4 +29,57 @@
 
 .social-media-row a{
     font-size: 0.8rem;
+}
+
+.social-background-mobile {
+    display: none;
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blob-social-mobile-orange,
+.blob-social-mobile-blue
+{   
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 40rem;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
+
+@media only screen and (max-width: 768px) {
+    .SocialMedia{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 0;
+        width: 100vw;
+        max-width: 30rem;
+        height: fit-content;
+        margin: 3rem auto;
+    }
+    .social-media-column{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .social-media-row{
+        display: block;
+    }
+    .social-media-row a{
+        display: none;
+    }
+    .social-media-row img{
+        margin: 0.5rem;
+    }
+
+    .social-background-mobile {
+        display: block;
+    }
+
 }

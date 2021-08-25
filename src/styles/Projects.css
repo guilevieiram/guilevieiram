@@ -1,5 +1,6 @@
 .Projects {
     margin: 20vh auto;
+    margin-top: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

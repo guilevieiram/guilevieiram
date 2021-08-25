@@ -7,7 +7,8 @@ import topBlobOrange from '../images/blob-top-orange.png';
 import bottomBlobBlue from '../images/blob-bottom-blue.png';
 import bottomBlobOrange from '../images/blob-bottom-orange.png';
 
-import arrows from '../images/arrows.png'
+import arrows from '../images/arrows.png';
+import arrowsMobile from '../images/arrows-mobile.png';
 
 function Background1 () {
     return (
@@ -20,7 +21,12 @@ function Background1 () {
             <div className='blob-bottom-orange'><img src={bottomBlobOrange} alt="" /></div>
 
             <div className="arrows"><img src={arrows} alt="" /></div>
-            
+
+            <div className="arrows arrows-mobile">
+                <h3>Scroll</h3>
+                <img src={arrowsMobile} alt="" />
+            </div>
+
         </div>
     )   
 

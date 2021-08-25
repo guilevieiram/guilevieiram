@@ -33,3 +33,13 @@
 
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
 }
+
+.social-background-container-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-background-container{
+        display: none;
+    }
+}
