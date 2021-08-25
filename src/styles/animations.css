@@ -1,0 +1,36 @@
+@keyframes up-down {
+    to{
+        transform: translateY(5px);
+    }
+    from{
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes left-right {
+    to{
+        transform: translateX(5px);
+    }
+    from{
+        transform: translateX(-5px);
+    }
+}
+
+@keyframes up-down-light {
+    to{
+        transform: translateY(2px);
+    }
+    from{
+        transform: translateY(-2px);
+    }
+}
+
+@keyframes left-right-light {
+    to{
+        transform: translateX(2px);
+    }
+    from{
+        transform: translateX(-2px);
+    }
+}
+

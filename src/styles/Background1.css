@@ -8,8 +8,7 @@
     top: 0;
     right: 0;
     transform: translate(40%, -50%);
-    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
-
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));    
 }
 
 .blob-bottom-blue,

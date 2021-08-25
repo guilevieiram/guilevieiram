@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/Nav.css';
+import * as animate from '../animations';
 
 import logo from '../images/logo-white.png';
 
@@ -32,7 +33,6 @@ function Nav () {
     
     const handleSetSidebar = () => {
         setSideBar(!sideBar);
-        console.log('clico burgi', sideBar);
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -43,29 +43,29 @@ function Nav () {
             <div className='nav-background'>
 
                 <div className="blob-logo">
-                    <img className='blob-logo-blue' src={blobLogoBlue} alt="" />
-                    <img className='blob-logo-orange' src={blobLogoOrange} alt="" />
+                    {animate.wobleLight(<img className='blob-logo-blue' src={blobLogoBlue} alt="" />)}
+                    {animate.wobleLight(<img className='blob-logo-orange' src={blobLogoOrange} alt="" />)}
                 </div>          
 
                 <div className="blob-nav-links">
-                    <img className='blob-nav-links-blue' src={blobNavLinksBlue} alt="" />
-                    <img className='blob-nav-links-orange' src={blobNavLinksOrange} alt="" />
+                    {animate.wobleLight(<img className='blob-nav-links-blue' src={blobNavLinksBlue} alt="" />)}
+                    {animate.wobleLight(<img className='blob-nav-links-orange' src={blobNavLinksOrange} alt="" />)}
                 </div>
 
                 {/* mobile */}
                 <div className="blob-logo blob-logo-mobile">
-                    <img className='blob-logo-mobile-blue' src={blobLogoMobileBlue} alt="" />
-                    <img className='blob-logo-mobile-orange' src={blobLogoMobileOrange} alt="" />
+                    {animate.wobleLight(<img className='blob-logo-mobile-blue' src={blobLogoMobileBlue} alt="" />)}
+                    {animate.wobleLight(<img className='blob-logo-mobile-orange' src={blobLogoMobileOrange} alt="" />)}
                 </div>          
 
                 <div className="blob-hamburger">
-                    <img className='blob-hamburger-blue' src={blobHamburgerBlue} alt="" />
-                    <img className='blob-hamburger-orange' src={blobHamburgerOrange} alt="" />
+                    {animate.wobleLight(<img className='blob-hamburger-blue' src={blobHamburgerBlue} alt="" />)}
+                    {animate.wobleLight(<img className='blob-hamburger-orange' src={blobHamburgerOrange} alt="" />)}
                 </div>
 
-                <div className={"side-bar" + (sideBar ? ' side-bar-on' : '')}>
-                    <img className='blob-side-nav-blue' src={blobSideNavBlue} alt="" />
-                    <img className='blob-side-nav-orange' src={blobSideNavOrange} alt="" />
+                <div className={"side-bar" + (sideBar ? ' side-bar-on' : ' side-bar-off')}>
+                    {animate.wobleLight(<img className='blob-side-nav-blue' src={blobSideNavBlue} alt="" />)}
+                    {animate.wobleLight(<img className='blob-side-nav-orange' src={blobSideNavOrange} alt="" />)}
                 </div>
 
             </div>
@@ -82,7 +82,7 @@ function Nav () {
                     <div></div>
                 </div>
 
-                <div className={'nav-links' + (sideBar ? ' nav-links-on' : '')}>
+                <div className={'nav-links' + (sideBar ? ' nav-links-on' : ' nav-links-off')}>
                     <a href='/'>About</a>
                     <a href='/'>Projects</a>
                     <a href='/'>Contact</a>
