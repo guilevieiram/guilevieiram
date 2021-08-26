@@ -6,9 +6,9 @@ import Card from './Card'
 import cardTestImage from '../images/card-test.jpg'
 
 
-function Projects() {
+function Projects({reference}) {
     return (
-        <div className="Projects">
+        <div className="Projects" ref={reference}>
             <h1>Projects</h1>
             <div className="cards-container">
                 <Card 

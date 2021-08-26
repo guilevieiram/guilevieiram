@@ -22,7 +22,7 @@ import blobSideNavOrange from '../images/blob-side-nav-orange.png';
 import blobSideNavBlue from '../images/blob-side-nav-blue.png';
 
 
-function Nav () {
+function Nav ({scrollAbout, scrollProjects, scrollContact}) {
 
     const [scrolled, setScrolled] = useState(false);
     const [sideBar, setSideBar] = useState(false);
@@ -36,6 +36,8 @@ function Nav () {
     }
 
     window.addEventListener('scroll', handleScroll)
+
+
 
     return (
         <div className={'Nav' + (scrolled ? ' sticky' : '')}>
@@ -71,7 +73,9 @@ function Nav () {
             </div>
 
             <div className='nav-content'>
-                <img className='nav-logo' src={logo} alt="Logo" />
+                <img className='nav-logo' src={logo} alt="Logo" 
+                    onClick={() => window.scrollTo({top:0, behavior:'smooth'})}    
+                />
 
                 <div 
                     className="hamburger"
@@ -83,9 +87,9 @@ function Nav () {
                 </div>
 
                 <div className={'nav-links' + (sideBar ? ' nav-links-on' : ' nav-links-off')}>
-                    <a href='/'>About</a>
-                    <a href='/'>Projects</a>
-                    <a href='/'>Contact</a>
+                    <p onClick={scrollAbout}>About</p>
+                    <p onClick={scrollProjects}>Projects</p>
+                    <p onClick={scrollContact}>Contact</p>
                 </div>
 
             </div>

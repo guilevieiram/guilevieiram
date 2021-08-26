@@ -1,5 +1,6 @@
 import './styles/animations.css';
 
+
 export const getDelay = (initial=2, range=2) => initial + range * Math.random();
 
 const animateInfinite = (element, animation, delay) => {

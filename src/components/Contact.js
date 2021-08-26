@@ -4,10 +4,10 @@ import '../styles/Contact.css';
 import ContactForm from './ContactForm'
 import SocialMedia from './SocialMedia';
 
-function Contact() {
+function Contact({reference}) {
     return (
         <div className="Contact">
-            <div className="message-container">
+            <div className="message-container" ref={reference}>
                 <h1>Lets Talk!</h1>
                 <ContactForm />
             </div>

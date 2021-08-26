@@ -13,7 +13,13 @@ import arrowsMobile from '../images/arrows-mobile.png';
 
 function Background1 () {
 
+    const scrollDown = () => {
+        window.scrollBy({
+            top: window.innerHeight,
+            behavior: 'smooth'
+        })
 
+    };
 
     return (
         <div className="Background1">
@@ -33,7 +39,7 @@ function Background1 () {
                 {animate.woble(<img src={bottomBlobOrange} alt="" />)}
             </div>
 
-            <div className="arrows">
+            <div className="arrows" onClick={scrollDown}>
                 {animate.upDown(
                     <img src={arrows} alt="" />,
                     animate.getDelay(1,0)
@@ -41,7 +47,7 @@ function Background1 () {
                 
             </div>
 
-            <div className="arrows arrows-mobile">
+            <div className="arrows arrows-mobile" onClick={scrollDown}>
                 {animate.upDownLight(
                     <><h3>Scroll</h3>
                     <img src={arrowsMobile} alt="" /></>,

@@ -19,7 +19,7 @@ function Card({image, title, text, link}) {
             onTouchStart={()=>setIsShown(!isShown)}
         >
             <img className='card-image' src={image} alt="" />
-            <div className={'card-info' + (isShown ? ' show' : '')}>
+            <div className={'card-info' + (isShown ? ' show' : ' hide')}>
                 <h3>{title}</h3>
                 <p>{text}</p>
                 <button onClick={openLink}>See more</button>

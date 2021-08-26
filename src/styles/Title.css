@@ -9,9 +9,14 @@
     margin: 0;
 }
 
-p {
+.Title p {
     margin: 2rem 0;
     font-size: 1rem;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 3.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
 }
 
 
@@ -21,4 +26,23 @@ p {
     left: 0px;
     margin: 2rem;
     height: 2.5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;       
+    }
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
 }

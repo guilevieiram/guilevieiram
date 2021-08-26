@@ -14,40 +14,17 @@ function SocialMedia() {
                 {animate.woble(<img className="blob-social-mobile-blue" src={blobSocialMobileBlue} alt="" />)}
                 {animate.woble(<img className="blob-social-mobile-orange" src={blobSocialMobileOrange} alt="" />)}
             </div>
+
             <div className="social-media-column">
-                <div className="social-media-row">
-                    <a href="/">/guilhermevieira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">@guilhermevieirasdfadfa</a>
-                    <img src={facebook} alt="" />
-                </div>                
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
-                    <img src={facebook} alt="" />
-                </div>
-                <div className="social-media-row">
-                    <a href="/">.guilhermeira</a>
+                
+                {/* template, must be its own element */}
+
+                <div className="social-media-row" onClick={() => window.location.href = 'https://google.com'}>
+                    <p>/guilhermevieira</p>
                     <img src={facebook} alt="" />
                 </div>
             </div>
+
         </div>
     )
 }

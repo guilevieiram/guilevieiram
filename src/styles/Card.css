@@ -13,7 +13,6 @@
     position: relative;
 
     filter: drop-shadow(0 0 15px rgb(0, 0, 0));
-
 }
 
 .card-image {
@@ -23,6 +22,8 @@
     position: absolute;
 }
 .card-info {
+    position: absolute;
+
     height: 100%;
     width: 100%;
     padding: 2rem;
@@ -39,7 +40,10 @@
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.7);
 
-    display: none;
+
+    transform: translateX(100%);
+
+    cursor: default;
 }
 
 .card-info h3 {
@@ -63,5 +67,10 @@
 }
 
 .show {
-    display: block;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+.hide {
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
 }
