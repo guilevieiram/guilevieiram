@@ -26,6 +26,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.5s ease;
+
 }
 
 .Footer button:hover {

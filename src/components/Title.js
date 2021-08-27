@@ -4,7 +4,7 @@ import '../styles/Title.css';
 import logo from '../images/logo-orange.png'
 import Typewriter from 'typewriter-effect';
 
-function Title () {
+function Title ({scrollContact}) {
     return (
         <div className='title-page'>
             <img className='logo' src={logo} alt="" />
@@ -22,6 +22,10 @@ function Title () {
                 /></h1>
 
                 <p>A Software Developer</p>
+                <button 
+                    className='contact-button-title'
+                    onClick={scrollContact}
+                >Get in touch!</button>
             </div>
         </div>
 

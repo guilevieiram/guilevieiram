@@ -17,7 +17,9 @@ function Card({image, title, text, link}) {
             onMouseEnter={()=>setIsShown(true)}
             onMouseLeave={()=>setIsShown(false)}
         >
-            <img className='card-image' src={image} alt="" />
+            <div className='image-container'>
+                <img className='card-image' src={image} alt="" />
+            </div>
             <div className={'card-info' + (isShown ? ' show' : ' hide')}>
                 <h3>{title}</h3>
                 <p>{text}</p>

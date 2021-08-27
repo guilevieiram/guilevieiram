@@ -13,7 +13,8 @@ function Projects({reference}) {
             <h1>Projects</h1>
             <div className="cards-container">
                 {projects.map(({title, image, description, link}) => (
-                    <Card 
+                    <Card
+                        key={title}
                         image={image}
                         title={title}
                         text={description}

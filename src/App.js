@@ -32,7 +32,9 @@ function App() {
 			<Background1 />
 
 			<div className='page page-1'>
-				<Title />
+				<Title
+					scrollContact={() => scrollToSection(contactSection)}
+				/>
 			</div>	
 
 			<Nav 

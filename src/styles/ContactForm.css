@@ -52,7 +52,9 @@
     height: 3rem;
     margin-top: 1rem;
     filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    transition: all 0.5s ease;
 }
+
 .submit-button:hover{
     transform: scale(1.05) translateY(-8px);
     transition: all 0.5s ease;
