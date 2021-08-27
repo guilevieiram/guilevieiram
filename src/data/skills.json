@@ -1,12 +1,48 @@
 [
     {
         "name": "Python",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/0607d239de5449ac7402431800514b6c4f7c0374/src/images/python-original.svg",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/python.png",
         "link": "https://www.python.org/"
     },
     {
+        "name": "React",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/react.png",
+        "link": ""
+    },
+    {
         "name": "JavaScript",
-        "image": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-        "link": "https://www.python.org/"
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/javascript.png",
+        "link": ""
+    },
+    {
+        "name": "CSS",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/css-3.png",
+        "link": ""
+    },
+    {
+        "name": "HTML",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/html-5.png",
+        "link": ""
+    },
+    {
+        "name": "Flask",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/flask.png",
+        "link": ""
+    },
+    {
+        "name": "Postgresql",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/postgresql.png",
+        "link": ""
+    },
+    {
+        "name": "Heroku",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/heroku.png",
+        "link": ""
+    },
+    {
+        "name": "AWS",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/aws.png",
+        "link": ""
     }
+
 ]
