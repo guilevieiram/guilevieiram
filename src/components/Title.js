@@ -1,14 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../styles/Title.css';
 
 import logo from '../images/logo-orange.png'
 import Typewriter from 'typewriter-effect';
 
 function Title () {
-
-    const finalText = "Hi! I'm Guile.▮";
-
-
     return (
         <div className='title-page'>
             <img className='logo' src={logo} alt="" />

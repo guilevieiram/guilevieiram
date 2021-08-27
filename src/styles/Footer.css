@@ -1,0 +1,49 @@
+.Footer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    filter: drop-shadow(0 0 15px black);
+}
+
+.Footer p {
+    font-size: 0.8rem;
+}
+
+.Footer button {
+    border: 2px solid var(--highlight-color-1);
+    border-radius: 2rem;
+    color: var(--highlight-color-1);
+    height: 5vh;
+    width: 5vw;
+    min-width: 5rem;
+    min-height: 2rem;
+
+    filter: drop-shadow(0 0 15px black);
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer button img {
+    width: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .Footer button {
+        min-width: 2rem;
+        min-height: 2rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+    .Footer button img{
+        width: 1.5rem;
+    }
+    .Footer button p {
+        display: none;
+    }
+}

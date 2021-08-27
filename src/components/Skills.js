@@ -24,7 +24,7 @@ function Skills() {
             </div>
             <div className="skills-icons">
                 {skills.map(({name, image, link}) => (
-                    <img key={name} src={image} alt={name} href={link}/>
+                    <img key={name} src={image} alt={name} onClick={() => window.location.href = link}/>
                 ))}
             </div>
         </div>
