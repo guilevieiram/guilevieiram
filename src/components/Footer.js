@@ -41,15 +41,15 @@ function Footer() {
                 <button 
                     onClick={scrollTop}
                     style={{
-                        border: 'none',
+                        border: '2px solid var(--highlight-color-1)',
                         borderRadius: '2rem',
+                        color: 'var(--highlight-color-1)',
                         height: '5vh',
                         width: '5vw',
                         minWidth: '6rem',
                         minHeight: '2rem',
-                        backgroundColor: 'var(--highlight-color-1)',
                         filter: 'drop-shadow(0 0 15px black)',
-
+                        backgroundColor: 'rgba(0,0,0,0%)',
                         display: 'flex',
                         justifyContent: 'space-around',
                         alignItems: 'center'

@@ -113,19 +113,35 @@
     width: 25px;
     margin-right:20px;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 .hamburger:hover{
     transform: scale(1.05);
     transition: all 0.2s ease-in;
 }
 
-.hamburger div {
+.patty {
     background-color: var(--primary-color);
     height: 2px;
     width: 100%;
     margin: 4px 0;
-
+    transition: all 0.5s ease;
 }
+
+.cross-1{
+    transform: rotate(45deg) translateX(33%);
+    transition: all 0.5s ease;
+}
+.cross-2{
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+.cross-3{
+    transform: rotate(-45deg) translateX(33%);
+    transition: all 0.5s ease;
+}
+
+
 
 .side-bar {
     height: 100vh;

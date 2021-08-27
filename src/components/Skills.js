@@ -9,7 +9,7 @@ import skillsBlobBlue from '../images/skills-blob-blue.png';
 import skillsBlobMobileOrange from '../images/skills-blob-mobile-orange.png';
 import skillsBlobMobileBlue from '../images/skills-blob-mobile-blue.png';
 
-import python from '../images/python.png'
+import skills from '../data/skills.json'
 
 function Skills() {
     return (
@@ -23,15 +23,9 @@ function Skills() {
                 {animate.woble(<img className='skills-blob-mobile-orange' src={skillsBlobMobileOrange} alt="" />)}
             </div>
             <div className="skills-icons">
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
-                <img src={python} alt="" />
+                {skills.map(({name, image, link}) => (
+                    <img key={name} src={image} alt={name} href={link}/>
+                ))}
             </div>
         </div>
     )

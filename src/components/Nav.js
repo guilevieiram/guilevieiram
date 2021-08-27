@@ -81,15 +81,24 @@ function Nav ({scrollAbout, scrollProjects, scrollContact}) {
                     className="hamburger"
                     onClick={handleSetSidebar}
                 >
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className={'patty' + (sideBar ? ' cross-1' : '')}></div>
+                    <div className={'patty' + (sideBar ? ' cross-2' : '')}></div>
+                    <div className={'patty' + (sideBar ? ' cross-3' : '')}></div>
                 </div>
 
                 <div className={'nav-links' + (sideBar ? ' nav-links-on' : ' nav-links-off')}>
-                    <p onClick={scrollAbout}>About</p>
-                    <p onClick={scrollProjects}>Projects</p>
-                    <p onClick={scrollContact}>Contact</p>
+                    <p onClick={() => {
+                        scrollAbout();
+                        handleSetSidebar();
+                    }}>About</p>
+                    <p onClick={() => {
+                        scrollProjects();
+                        handleSetSidebar();
+                    }}>Projects</p>
+                    <p onClick={() => {
+                        scrollContact();
+                        handleSetSidebar();
+                    }}>Contact</p>
                 </div>
 
             </div>
