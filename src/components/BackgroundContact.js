@@ -12,7 +12,6 @@ function BackgroundContact() {
                 {animate.woble(<img className="blob-social-blue" src={blobSocialBlue} alt="" />)}
                 {animate.woble(<img className="blob-social-orange" src={blobSocialOrange} alt="" />)}
             </div>
-
         </div>
     )
 }
