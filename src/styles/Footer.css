@@ -28,6 +28,11 @@
     align-items: center;
 }
 
+.Footer button:hover {
+    transform: translateY(-8px);
+    transition: all 0.5s ease;
+}
+
 .Footer button img {
     width: 2rem;
 }

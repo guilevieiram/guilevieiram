@@ -21,7 +21,7 @@
 .skills-blob-mobile-orange{
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -10%);
     min-height: 20vh;
     filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
@@ -42,6 +42,11 @@
     margin: 1rem;
 }
 
+.skills-icons img:hover{
+    transform: translateY(-5px) scale(1.05);
+    transition: all 0.5s ease;
+}
+
 .skills-background-mobile{
     display: none;
 }
@@ -57,7 +62,9 @@
         width: 20rem;
         transform: translateY(-12vh);
     }
-
+    .skills-icons img {
+        height: 2.5rem;
+    }
     .skills-blob-blue,
     .skills-blob-orange,
     .skills-blob-mobile-blue,

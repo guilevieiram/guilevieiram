@@ -1,48 +1,48 @@
 [
     {
         "name": "Python",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/python.png",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/python.svg",
         "link": "https://www.python.org/"
     },
     {
         "name": "React",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/react.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/react.svg",
+        "link": "https://reactjs.org/"
     },
     {
         "name": "JavaScript",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/javascript.png",
-        "link": ""
+        "link": "https://www.javascript.com/"
     },
     {
         "name": "CSS",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/css-3.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/css.svg",
+        "link": "https://www.w3.org/Style/CSS/Overview.en.html"
     },
     {
         "name": "HTML",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/html-5.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/html.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
     {
         "name": "Flask",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/flask.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/flask.svg",
+        "link": "https://flask.palletsprojects.com/en/2.0.x/"
     },
     {
         "name": "Postgresql",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/postgresql.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/postgresql.svg",
+        "link": "https://www.postgresql.org/"
     },
     {
         "name": "Heroku",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/heroku.png",
-        "link": ""
+        "link": "https://www.heroku.com/"
     },
     {
         "name": "AWS",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/aws.png",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/aws.svg",
+        "link": "https://aws.amazon.com/"
     }
 
 ]

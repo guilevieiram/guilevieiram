@@ -13,6 +13,12 @@
     position: relative;
 
     filter: drop-shadow(0 0 15px rgb(0, 0, 0));
+
+}
+
+.Card:hover{
+    transform: scale(1.02);
+    transition: all 0.5s ease;
 }
 
 .card-image {
@@ -64,6 +70,11 @@
     border-width: 2px;
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
+}
+
+.card-info button:hover {
+    transform: scale(1.02) translateY(-5px);
+    transition: all 0.5s ease;
 }
 
 .show {

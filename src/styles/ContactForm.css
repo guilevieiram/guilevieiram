@@ -14,7 +14,9 @@
 .message {
     width: 90vw;
     max-width: 20rem;
-    
+
+    padding-left: 1rem;
+
     border: none;
     border-radius: 0.3rem;  
 
@@ -42,6 +44,7 @@
 .message {
     margin-top: 2rem;
     height: 8rem;
+    padding-top: 0.7rem;
 }
 
 .submit-button{
@@ -49,6 +52,10 @@
     height: 3rem;
     margin-top: 1rem;
     filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+.submit-button:hover{
+    transform: scale(1.05) translateY(-8px);
+    transition: all 0.5s ease;
 }
 
 
@@ -58,13 +65,8 @@
 {
     color: var(--primary-color);
     font-weight: lighter;
-    padding-left: 1rem;
     font-size: 0.8rem;
     opacity: 0.8; /* Firefox */
-}
-  
-.message::placeholder {
-    padding-top: 0.7rem;
 }
 
 /* Internet Explorer 10-11 */
@@ -77,11 +79,6 @@
     font-size: 0.8rem;
     opacity: 0.8; /* Firefox */
 }
-  
-.message:-ms-input-placeholder {
-
-    padding-top: 0.7rem;
-}
 
 /* Microsoft Edge */
 .input::-ms-input-placeholder,
@@ -92,10 +89,5 @@
     padding-left: 1rem;
     font-size: 0.8rem;
     opacity: 0.8; /* Firefox */
-}
-  
-.message::-ms-input-placeholder {
-
-    padding-top: 0.7rem;
 }
   

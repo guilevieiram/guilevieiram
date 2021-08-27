@@ -27,7 +27,11 @@
     align-items: center;
 
     cursor: pointer;
+}
 
+.social-media-row:hover{
+    transform: scale(1.05) translateY(-5px);
+    transition: all 0.5s ease;
 }
 
 .social-media-row p{
