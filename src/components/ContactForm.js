@@ -21,6 +21,7 @@ function ContactForm () {
             window.alert("Your message has been sent!\n\nI'll contact you as soon as possible!")
         }, (error) => {
             console.log(error.text);
+            window.alert("Looks like our servers are down...\n\nTry contacting me on my social media!")
         });
     }
 
