@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Profile.css';
 import * as animate from '../animations';
 
-import profilePic from '../images/profile-pic.jpg'
+import profilePic from '../images/profile_zap.jpeg'
 import profileBlobBlue from '../images/profile-blob-blue.png'
 import profileBlobOrange from '../images/profile-blob-orange.png'
 
