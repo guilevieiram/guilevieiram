@@ -89,7 +89,7 @@
 
 .nav-links p {
     cursor: pointer;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     transition: all 0.2s ease-in;
 }
 
@@ -226,6 +226,9 @@
         justify-content: space-around;
         align-items: center;
         transform: translateX(var(--side-nav-width));
+    }
+    .nav-links p {
+        font-size: 0.9rem;
     }
 
     .nav-links-on {
