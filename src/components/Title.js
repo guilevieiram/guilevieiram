@@ -5,11 +5,11 @@ import * as animate from '../animations'
 import logo from '../images/logo-orange.png'
 import Typewriter from 'typewriter-effect';
 
-function Title ({scrollContact}) {
+function Title ({scrollContact, showGames}) {
     return (
         <div className='title-page'>
             {animate.fromUp(
-                <img className='logo' src={logo} alt="" />
+                <img className='logo' src={logo} alt="" onClick={showGames}/>
                 , 4
             )}
             <div className='Title'>

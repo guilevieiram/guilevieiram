@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 
 import './App.css';
 import Nav from './components/Nav';
@@ -12,12 +12,15 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BackgroundContact from './components/BackgroundContact';
+import MiniGames from './components/MiniGames';
 
 function App() {
 
 	const aboutSection = useRef();
 	const projectsSection = useRef();
 	const contactSection = useRef();
+
+	const [showMinigames, setShowMinigames] = useState(false)
 
 	const scrollToSection = (element) => {        
 		window.scrollTo({
@@ -28,12 +31,15 @@ function App() {
 
   	return (
     	<div className="App">
-			
+
 			<Background1 />
+
+			<MiniGames display={showMinigames} setDisplay={setShowMinigames}/>	
 
 			<div className='page page-1'>
 				<Title
 					scrollContact={() => scrollToSection(contactSection)}
+					showGames={() => {setShowMinigames(!showMinigames)}}
 				/>
 			</div>	
 
