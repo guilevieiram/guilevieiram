@@ -9,6 +9,7 @@
   padding: 0;
   position: relative;
   overflow-x: hidden;
+  z-index: 0;
 }
 
 .page-2 {

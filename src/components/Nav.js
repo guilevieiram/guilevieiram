@@ -43,26 +43,43 @@ function Nav ({scrollAbout, scrollProjects, scrollContact}) {
         <div className={'Nav' + (scrolled ? ' sticky' : '')}>
 
             <div className='nav-background'>
-
+                
                 <div className="blob-logo">
-                    {animate.wobleLight(<img className='blob-logo-blue' src={blobLogoBlue} alt="" />)}
-                    {animate.wobleLight(<img className='blob-logo-orange' src={blobLogoOrange} alt="" />)}
+                    {animate.fromDown(
+                        <>
+                            {animate.wobleLight(<img className='blob-logo-blue' src={blobLogoBlue} alt="" />)}
+                            {animate.wobleLight(<img className='blob-logo-orange' src={blobLogoOrange} alt="" />)}
+                        </>, 3.5
+                    )}
                 </div>          
 
                 <div className="blob-nav-links">
-                    {animate.wobleLight(<img className='blob-nav-links-blue' src={blobNavLinksBlue} alt="" />)}
-                    {animate.wobleLight(<img className='blob-nav-links-orange' src={blobNavLinksOrange} alt="" />)}
+                    {animate.fromDown(
+                        <>
+                            {animate.wobleLight(<img className='blob-nav-links-blue' src={blobNavLinksBlue} alt="" />)}
+                            {animate.wobleLight(<img className='blob-nav-links-orange' src={blobNavLinksOrange} alt="" />)}
+                        </>, 4
+                    )}
                 </div>
-
+     
                 {/* mobile */}
                 <div className="blob-logo blob-logo-mobile">
-                    {animate.wobleLight(<img className='blob-logo-mobile-blue' src={blobLogoMobileBlue} alt="" />)}
-                    {animate.wobleLight(<img className='blob-logo-mobile-orange' src={blobLogoMobileOrange} alt="" />)}
+                    {animate.fromLeft(
+                        <>
+                            {animate.wobleLight(<img className='blob-logo-mobile-blue' src={blobLogoMobileBlue} alt="" />)}
+                            {animate.wobleLight(<img className='blob-logo-mobile-orange' src={blobLogoMobileOrange} alt="" />)}
+                        </>, 4
+                    )}
                 </div>          
 
                 <div className="blob-hamburger">
-                    {animate.wobleLight(<img className='blob-hamburger-blue' src={blobHamburgerBlue} alt="" />)}
-                    {animate.wobleLight(<img className='blob-hamburger-orange' src={blobHamburgerOrange} alt="" />)}
+                    {animate.fromRight(
+                        <>
+                            {animate.wobleLight(<img className='blob-hamburger-blue' src={blobHamburgerBlue} alt="" />)}
+                            {animate.wobleLight(<img className='blob-hamburger-orange' src={blobHamburgerOrange} alt="" />)}
+                        </>, 4.2
+                    )}
+
                 </div>
 
                 <div className={"side-bar" + (sideBar ? ' side-bar-on' : ' side-bar-off')}>
@@ -73,33 +90,49 @@ function Nav ({scrollAbout, scrollProjects, scrollContact}) {
             </div>
 
             <div className='nav-content'>
-                <img className='nav-logo' src={logo} alt="Logo" 
-                    onClick={() => window.scrollTo({top:0, behavior:'smooth'})}    
-                />
+
+                {animate.fromNothing(
+                    <>
+                        <img className='nav-logo' src={logo} alt="Logo" 
+                            onClick={() => window.scrollTo({top:0, behavior:'smooth'})}    
+                        />
+                    </>, 4.5
+                )}
 
                 <div 
                     className="hamburger"
                     onClick={handleSetSidebar}
-                >
-                    <div className={'patty' + (sideBar ? ' cross-1' : '')}></div>
-                    <div className={'patty' + (sideBar ? ' cross-2' : '')}></div>
-                    <div className={'patty' + (sideBar ? ' cross-3' : '')}></div>
+                > 
+                    {animate.fromNothing(
+                        <>
+                            <div className={'patty' + (sideBar ? ' cross-1' : '')}></div>
+                            <div className={'patty' + (sideBar ? ' cross-2' : '')}></div>
+                            <div className={'patty' + (sideBar ? ' cross-3' : '')}></div>
+                        </>, 4.7
+                    )}
                 </div>
 
-                <div className={'nav-links' + (sideBar ? ' nav-links-on' : ' nav-links-off')}>
-                    <p onClick={() => {
-                        scrollAbout();
-                        handleSetSidebar();
-                    }}>About</p>
-                    <p onClick={() => {
-                        scrollProjects();
-                        handleSetSidebar();
-                    }}>Projects</p>
-                    <p onClick={() => {
-                        scrollContact();
-                        handleSetSidebar();
-                    }}>Contact</p>
-                </div>
+
+                {animate.fromNothing(
+                    <>
+                        <div className={'nav-links' + (sideBar ? ' nav-links-on' : ' nav-links-off')}>
+                            <p onClick={() => {
+                                scrollAbout();
+                                handleSetSidebar();
+                            }}>About</p>
+                            <p onClick={() => {
+                                scrollProjects();
+                                handleSetSidebar();
+                            }}>Projects</p>
+                            <p onClick={() => {
+                                scrollContact();
+                                handleSetSidebar();
+                            }}>Contact</p>
+                        </div>
+                    </>, 4.5
+                )}
+
+
 
             </div>
 

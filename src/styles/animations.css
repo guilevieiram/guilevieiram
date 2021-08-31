@@ -45,3 +45,46 @@
     }
 
 }
+
+@keyframes from-left {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes from-right {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes from-up {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes from-down {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes from-nothing {
+    to {
+        opacity: 1;
+    }
+}
