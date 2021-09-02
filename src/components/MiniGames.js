@@ -1,5 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../styles/MiniGames.css';
+
+import TicTacToe from './TicTacToe'
 
 function MiniGames ({display, setDisplay}) {
 
@@ -11,7 +13,8 @@ function MiniGames ({display, setDisplay}) {
             </div>
             <div className='game-window'>
                 {/* GAMES GO IN HERE!!!! */}
-                <div style={{backgroundColor: 'blue', height: '100%', width: '100%'}}></div>
+
+                <TicTacToe />
             </div>
             <div className='game-info'>
                 <p>You're playing NOTHING</p>

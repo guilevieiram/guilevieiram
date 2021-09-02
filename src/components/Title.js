@@ -9,11 +9,11 @@ function Title ({scrollContact, showGames}) {
     return (
         <div className='title-page'>
             {animate.fromUp(
-                <img className='logo' src={logo} alt="" onClick={showGames}/>
+                <img className='logo' src={logo} alt=""/>
                 , 4
             )}
             <div className='Title'>
-                <h1><Typewriter 
+                <h1  onClick={showGames} ><Typewriter 
                     options={{
                         cursor: '▮',
                         delay: 200,

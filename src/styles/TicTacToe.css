@@ -1,0 +1,45 @@
+.Board {
+    display: grid;
+    grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
+
+}
+
+.ttt-square {
+    border: 1px solid white;
+
+    outline: none;
+    cursor: pointer;
+    background: none;
+
+
+    width: 30%;
+    height: 30%;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.X {
+    color: red;
+}
+.O {
+    color: green;
+}
+
+
+.reset-button {
+    background: none;
+
+}
+
+.winner-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: black;
+}
+
+.show {
+    display: block;
+}
