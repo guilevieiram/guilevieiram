@@ -1,12 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import '../styles/TicTacToe.css'
 
-const checkWinner = (squares) => {
-    let example = [   'X',      'O',      'O',
-                        null,   'X',      null,
-                        'O',      null,   'X'
-    ];
+import {getPlay} from './bot'
 
+const checkWinner = (squares) => {
     const lines = [
         [0,1,2],
         [3,4,5],
@@ -43,6 +40,9 @@ const checkWinner = (squares) => {
     else if (includes(lines, getPositions('O', squares))){
         return 'O'
     }
+    else if (!squares.includes(null)){
+        return 'tie'
+    }
     else {
         return null
     }
@@ -50,10 +50,15 @@ const checkWinner = (squares) => {
 }
 
 
-function Square({value, onClick}) {
+function Square({value, onClick, gameState}) {
+
     return (
         <button 
-            className={'ttt-square'}
+            className={
+                'ttt-square' 
+                + (value==='X' ? ' X' : ' O')
+                + (gameState ? ' on' : ' over')
+            }
             onClick={onClick}
         >
             {value}
@@ -61,49 +66,89 @@ function Square({value, onClick}) {
     )
 }
 
-function Board({squares, onClick}) {
+function Board({squares, onClick, gameState, blur, disableBoard, onDisable}) {
+
+    if(disableBoard) {onClick = onDisable}
+
+
     return (
-        <div className='Board'>
+        <div className={'Board' + (blur ? ' blur' : '')}>
             {squares.map((square, i) => (
-                <Square key={i} value={square} onClick={() => onClick(i)} />
+                <Square 
+                    key={i} 
+                    value={square} 
+                    onClick={() => onClick(i)} 
+                    gameState={gameState}
+                />
             ))}
         </div>
     )
 }
 
-function TicTacToe () {
+function TicTacToe ({winFunction}) {
 
     const [history, setHistory] = useState(Array(9).fill(null));
     const [turn, setTurn] = useState('X');
     const [showWinner, setShowWinner] = useState(false);
     const [winner, setWinner] = useState('');
+    const [gameState, setGameState] = useState(true);
+
 
     const resetGame = () => {
         setHistory(Array(9).fill(null));
         setWinner('');
+        setTurn('X');
         setShowWinner(false);
+        setGameState(true);
     }
 
     const handleTurn = () => setTurn(turn === 'X' ? 'O' : 'X');
 
     const handlePlay = (squareNumber) => {
+
+        console.log('square', squareNumber)
+
         let winner;
-        if(winner = checkWinner(history)){
-            setWinner(winner)
-            setShowWinner(true);
-        }
-        else if(!history[squareNumber]){
+
+        if(!history[squareNumber] && gameState){ //checks if its null
             history[squareNumber] = turn;
             handleTurn();
         };
-    }
 
+        if(winner = checkWinner(history)){
+            if(winner === 'X') {winFunction()}
+            setWinner(winner)
+            setShowWinner(true);
+            setGameState(false);
+        };
+    }
 
     return (
         <div className='TicTacToe'>
-            <Board squares={history} onClick={(squareNumber) => handlePlay(squareNumber)} />
+
+            <Board 
+                squares={history} 
+                onClick={(squareNumber) => handlePlay(squareNumber)} 
+                gameState={gameState}
+                blur={showWinner}
+                disableBoard={showWinner}
+                onDisable={resetGame}
+            />
             <button className='reset-button' onClick={resetGame}>Reset</button>
-            <h1 className={'winner-text' + (showWinner ? ' show' : '')}>The Winner Is: {winner}</h1>
+            <p className={'player-text ' + turn}>{turn}</p>
+            <h1 className={'winner-text' + (showWinner ? ' show-winner' : '')}>
+                {(() => {
+                        switch(winner){
+                            case 'tie':
+                                return 'Its a tie!';
+                            case 'X':
+                                return 'You won!!!!';
+                            case 'O':
+                                return 'You have lost, try again!'
+                        }
+                    })()
+                }
+            </h1>
         </div>
     )
 }

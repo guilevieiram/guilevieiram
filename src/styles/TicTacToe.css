@@ -1,21 +1,24 @@
 .Board {
     display: grid;
     grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
-
+    transition: all 1s ease;
 }
 
 .ttt-square {
     border: 1px solid white;
 
     outline: none;
-    cursor: pointer;
     background: none;
 
+    font-size: 5rem;
 
     width: 30%;
     height: 30%;
     min-width: 100px;
     min-height: 100px;
+
+    color: black;
+    transition: all 0.5s ease;
 }
 
 .X {
@@ -24,11 +27,25 @@
 .O {
     color: green;
 }
-
+.on {
+    cursor: pointer;
+}
+.over {
+    cursor: default;
+}
 
 .reset-button {
-    background: none;
+    background-color: var(--highlight-color-1);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 2rem;
+    float: right;
+}
 
+.player-text {
+    float: left;
+    font-weight: bold;
+    margin: 0.5rem;
 }
 
 .winner-text {
@@ -36,10 +53,21 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
     display: none;
-    background-color: black;
+    transition: all 0.5s ease;
 }
 
-.show {
-    display: block;
+.show-winner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
 }
+
+.blur {
+    filter: blur(3px);
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
