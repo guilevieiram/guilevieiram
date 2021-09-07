@@ -1,7 +1,7 @@
-import React, {useState, useRef} from 'react';
+import React, {useState, useEffect} from 'react';
 import '../styles/TicTacToe.css'
 
-// import {getPlay} from './bot'
+import {getPlay} from './bot'
 
 const checkWinner = (squares) => {
     const lines = [
@@ -106,9 +106,11 @@ function TicTacToe ({winFunction}) {
 
     const handlePlay = (squareNumber) => {
 
+        if(!gameState){return}
+
         let winner;
 
-        if(!history[squareNumber] && gameState){ //checks if its null
+        if(!history[squareNumber]){ //checks if its null
             history[squareNumber] = turn;
             handleTurn();
         };
@@ -119,7 +121,18 @@ function TicTacToe ({winFunction}) {
             setShowWinner(true);
             setGameState(false);
         };
-    }
+
+    }    
+    
+    useEffect(() => {
+        if(turn === 'X'){return};
+        setTimeout(() => {
+            console.log('turn', turn)
+            let botSquare = getPlay(history);
+            handlePlay(botSquare);
+        }, 300)
+    }, [turn])
+
 
     return (
         <div className='TicTacToe'>
