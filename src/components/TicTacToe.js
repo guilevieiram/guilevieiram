@@ -92,6 +92,7 @@ function TicTacToe ({winFunction}) {
     const [showWinner, setShowWinner] = useState(false);
     const [winner, setWinner] = useState('');
     const [gameState, setGameState] = useState(true);
+    const [easy, setEasy] = useState(true);
 
 
     const resetGame = () => {
@@ -128,7 +129,7 @@ function TicTacToe ({winFunction}) {
         if(turn === 'X'){return};
         setTimeout(() => {
             console.log('turn', turn)
-            let botSquare = getPlay(history);
+            let botSquare = getPlay(history, easy);
             handlePlay(botSquare);
         }, 300)
     }, [turn])
@@ -145,8 +146,13 @@ function TicTacToe ({winFunction}) {
                 disableBoard={showWinner}
                 onDisable={resetGame}
             />
-            <button className='reset-button' onClick={resetGame}>Reset</button>
-            <p className={'player-text ' + turn}>{turn}</p>
+            <div className="game-interface">
+                <p className={'player-text ' + turn}>{turn}</p>
+                <button className='difficulty-button' onClick={() => setEasy(!easy)}>{
+                easy ? 'Hardcore?' : 'Back to Easy!!'}</button>
+                <button className='reset-button' onClick={resetGame}>Reset</button>
+            </div>
+
             <h1 className={'winner-text' + (showWinner ? ' show-winner' : '')}>
                 {(() => {
                         switch(winner){

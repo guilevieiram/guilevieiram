@@ -33,12 +33,20 @@
     cursor: default;
 }
 
+
+.game-interface {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .reset-button {
     background-color: var(--highlight-color-1);
     padding: 0.5rem 1rem;
     margin: 0.5rem 0;
     border-radius: 2rem;
-    float: right;
     transition: all 0.5s ease;
 }
 .reset-button:hover{
@@ -47,9 +55,24 @@
 }
 
 .player-text {
-    float: left;
     font-weight: bold;
     margin: 0.5rem;
+    width: min-content;
+}
+
+.difficulty-button {
+    color: var(--primary-color);
+    background: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 2rem;
+    border: 1px solid var(--highlight-color-1);
+    transition: all 0.5s ease;
+}
+
+.difficulty-button:hover{
+    transform: translateY(-2px) ;
+    transition: all 0.5s ease;
 }
 
 .winner-text {
