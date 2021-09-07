@@ -15,7 +15,14 @@
     border-radius: 2rem;
     background: linear-gradient(to top left, rgba(138, 137, 137, 0.878), rgba(68, 68, 68, 0.9));
 
-    
+    display: none;
+    transition: all 0.5s ease;
+}
+
+
+.show-mini-games{
+    display: block;
+    animation: from-nothing 0.5s 0s ease forwards;
 }
 
 .game-window{
@@ -25,7 +32,6 @@
 
     padding: 10% 0;
     height: 100%;
-
 }
 
 
@@ -55,7 +61,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease;
 
+}
+
+.exit-button:hover{
+    transform: translateY(-5px) scale(1.05);
+    transition: all 0.5s ease;
 }
 
 .first-line,
@@ -76,3 +88,4 @@
 .second-line{
     transform: translateY(-1px) rotate(-45deg) ;
 }
+

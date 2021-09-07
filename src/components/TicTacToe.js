@@ -1,7 +1,7 @@
 import React, {useState, useRef} from 'react';
 import '../styles/TicTacToe.css'
 
-import {getPlay} from './bot'
+// import {getPlay} from './bot'
 
 const checkWinner = (squares) => {
     const lines = [
@@ -72,7 +72,7 @@ function Board({squares, onClick, gameState, blur, disableBoard, onDisable}) {
 
 
     return (
-        <div className={'Board' + (blur ? ' blur' : '')}>
+        <div className={'Board' + (blur ? ' blur opaque' : '')}>
             {squares.map((square, i) => (
                 <Square 
                     key={i} 
@@ -105,8 +105,6 @@ function TicTacToe ({winFunction}) {
     const handleTurn = () => setTurn(turn === 'X' ? 'O' : 'X');
 
     const handlePlay = (squareNumber) => {
-
-        console.log('square', squareNumber)
 
         let winner;
 

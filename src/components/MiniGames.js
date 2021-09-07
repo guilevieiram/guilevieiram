@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/MiniGames.css';
+import '../styles/animations.css'
 
 import TicTacToe from './TicTacToe'
 
@@ -10,11 +11,7 @@ function MiniGames ({display, setDisplay}) {
     const handlePoints = () => setPoints(points + 1)
 
     return (
-        <div className='MiniGames' 
-            style={{
-                display: display ? 'block' : 'none'
-                }}
-        >
+        <div className={'MiniGames' + (display ? ' show-mini-games' : '')}>
             <div className='exit-button' onClick={() => setDisplay(false)}>
                 <div className='first-line'></div>
                 <div className='second-line'></div>

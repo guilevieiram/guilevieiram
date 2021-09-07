@@ -84,6 +84,9 @@
 }
 
 @keyframes from-nothing {
+    from{
+        opacity: 0;
+    }
     to {
         opacity: 1;
     }
