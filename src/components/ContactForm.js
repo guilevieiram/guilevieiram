@@ -30,7 +30,8 @@ function ContactForm () {
             <input className='input' type="email" name='email' placeholder='Email' required />
             <input className='input' type="text" name='subject' placeholder='Subject' />
             <textarea className='message' type="text" name='message' placeholder='Message' required />
-            {animate.upDownLight(<input className='submit-button' type="image" alt='' src={sendButton} value="send" />)}
+            <span style={{zIndex: '3'}}>{animate.upDownLight(<input className='submit-button' type="image" alt='' src={sendButton} value="send" />)}</span>
+            
         </form>
     )
 }
