@@ -21,6 +21,7 @@ function App() {
 	const contactSection = useRef();
 
 	const [showMinigames, setShowMinigames] = useState(false)
+    const [sideBar, setSideBar] = useState(false);
 
 	const scrollToSection = (element) => {        
 		window.scrollTo({
@@ -36,7 +37,14 @@ function App() {
 
 			<MiniGames display={showMinigames} setDisplay={setShowMinigames}/>	
 
-			<div className='page page-1'>
+			<div 
+				className='page page-1'
+				onClick={() => {
+					if(showMinigames){setShowMinigames(false)}
+					if(sideBar){setSideBar(false)}
+				}
+				}
+			>
 				<Title
 					scrollContact={() => scrollToSection(contactSection)}
 					showGames={() => {setShowMinigames(!showMinigames)}}
@@ -47,6 +55,8 @@ function App() {
 				scrollAbout={() => scrollToSection(aboutSection)}
 				scrollProjects={() => scrollToSection(projectsSection)}
 				scrollContact={() => scrollToSection(contactSection)}
+				sideBar={sideBar}
+				setSideBar={setSideBar}
 			/>
 
 

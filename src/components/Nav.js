@@ -22,10 +22,9 @@ import blobSideNavOrange from '../images/blob-side-nav-orange.png';
 import blobSideNavBlue from '../images/blob-side-nav-blue.png';
 
 
-function Nav ({scrollAbout, scrollProjects, scrollContact}) {
+function Nav ({scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar}) {
 
     const [scrolled, setScrolled] = useState(false);
-    const [sideBar, setSideBar] = useState(false);
 
     const handleScroll = () => {
         (window.scrollY > window.innerHeight) ? setScrolled(true) : setScrolled(false);

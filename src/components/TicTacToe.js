@@ -128,7 +128,6 @@ function TicTacToe ({winFunction}) {
     useEffect(() => {
         if(turn === 'X'){return};
         setTimeout(() => {
-            console.log('turn', turn)
             let botSquare = getPlay(history, easy);
             handlePlay(botSquare);
         }, 300)
@@ -153,7 +152,15 @@ function TicTacToe ({winFunction}) {
                 <button className='reset-button' onClick={resetGame}>Reset</button>
             </div>
 
-            <h1 className={'winner-text' + (showWinner ? ' show-winner' : '')}>
+            <h1 
+                className={'winner-text' + (showWinner ? ' show-winner' : '')}
+                onClick={() => {
+                    if(gameState === false){
+                        console.log('clicked on title');
+                        resetGame();
+                    };
+                }} 
+                >
                 {(() => {
                         switch(winner){
                             case 'tie':
@@ -161,7 +168,7 @@ function TicTacToe ({winFunction}) {
                             case 'X':
                                 return 'You won!!!!';
                             case 'O':
-                                return 'You have lost, try again!'
+                                return 'You have lost !!'
                         }
                     })()
                 }

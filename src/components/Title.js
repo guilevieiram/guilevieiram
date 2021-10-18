@@ -20,7 +20,7 @@ function Title ({scrollContact, showGames}) {
 
                     }}
                     onInit={(tw) => {
-                        tw.typeString("I'm Guile!")
+                        tw.typeString("Hi! I'm Guile!")
                         .start();
                     }}
                 /></h1>

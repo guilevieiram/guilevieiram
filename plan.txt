@@ -1,0 +1,10 @@
+TO DO :
+
+
+- write about text; OK +-
+- take out ttt console logs; OK
+- fix tic tac toe exit bug; OK
+- fix side nav bar shit; OK
+- fix tic tac toe iphone view shit;
+
+- implement different languages;
