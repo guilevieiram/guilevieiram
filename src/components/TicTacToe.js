@@ -155,13 +155,11 @@ function TicTacToe ({winFunction}) {
             <h1 
                 className={'winner-text' + (showWinner ? ' show-winner' : '')}
                 onClick={() => {
-                    if(gameState === false){
-                        console.log('clicked on title');
-                        resetGame();
-                    };
+                    if(gameState === false){resetGame();};
                 }} 
                 >
                 {(() => {
+                    // missing default case
                         switch(winner){
                             case 'tie':
                                 return 'Its a tie!';
