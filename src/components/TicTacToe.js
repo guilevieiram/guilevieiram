@@ -1,7 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import '../styles/TicTacToe.css'
 
-import {getPlay} from './bot'
+import {getPlay} from './bot';
+
+import texts from '../data/texts.json';
+
 
 const checkWinner = (squares) => {
     const lines = [
@@ -85,7 +88,7 @@ function Board({squares, onClick, gameState, blur, disableBoard, onDisable}) {
     )
 }
 
-function TicTacToe ({winFunction}) {
+function TicTacToe ({language, winFunction}) {
 
     const [history, setHistory] = useState(Array(9).fill(null));
     const [turn, setTurn] = useState('X');
@@ -147,9 +150,12 @@ function TicTacToe ({winFunction}) {
             />
             <div className="game-interface">
                 <p className={'player-text ' + turn}>{turn}</p>
-                <button className='difficulty-button' onClick={() => setEasy(!easy)}>{
-                easy ? 'Hardcore?' : 'Back to Easy!!'}</button>
-                <button className='reset-button' onClick={resetGame}>Reset</button>
+                <button className='difficulty-button' onClick={() => setEasy(!easy)}>
+                    {easy ? '😄' : '💀'}
+                </button>
+                <button className='reset-button' onClick={resetGame}>
+                    ↺
+                </button>
             </div>
 
             <h1 
@@ -159,14 +165,15 @@ function TicTacToe ({winFunction}) {
                 }} 
                 >
                 {(() => {
-                    // missing default case
                         switch(winner){
                             case 'tie':
-                                return 'Its a tie!';
+                                return texts.tictactoe[language.sign][0];
                             case 'X':
-                                return 'You won!!!!';
+                                return texts.tictactoe[language.sign][1];
                             case 'O':
-                                return 'You have lost !!'
+                                return texts.tictactoe[language.sign][2];
+                            default:
+                                return '';
                         }
                     })()
                 }

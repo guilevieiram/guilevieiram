@@ -11,7 +11,9 @@ import bottomBlobOrange from '../images/blob-bottom-orange.png';
 import arrows from '../images/arrows.png';
 import arrowsMobile from '../images/arrows-mobile.png';
 
-function Background1 () {
+import texts from '../data/texts.json';
+
+function Background1 ({language}) {
 
     const scrollDown = () => {
         window.scrollBy({
@@ -59,7 +61,7 @@ function Background1 () {
 
                     <div className="arrows arrows-mobile" onClick={scrollDown}>
                         {animate.upDownLight(
-                            <><h3>Scroll</h3>
+                            <><h3>{texts.arrow[language.sign]}</h3>
                             <img src={arrowsMobile} alt="" /></>,
                             animate.getDelay(1,0)
                         )}

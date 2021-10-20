@@ -2,9 +2,12 @@ import React, {useState} from 'react';
 import '../styles/MiniGames.css';
 import '../styles/animations.css'
 
-import TicTacToe from './TicTacToe'
+import TicTacToe from './TicTacToe';
 
-function MiniGames ({display, setDisplay}) {
+import texts from '../data/texts.json';
+
+
+function MiniGames ({language, display, setDisplay}) {
 
     const [points, setPoints] = useState(0)
 
@@ -19,11 +22,12 @@ function MiniGames ({display, setDisplay}) {
             <div className='game-window'>
                 {/* GAMES GO IN HERE!!!! */}
 
-                <TicTacToe winFunction={handlePoints}/>
+                <TicTacToe 
+                    language={language} 
+                    winFunction={handlePoints}/>
             </div>
             <div className='game-info'>
-                <p>You're playing Tic Tac Toe!</p>
-                <p>Score: {points}</p>
+                <p>{texts.score[language.sign]} {points}</p>
             </div>
         </div>
     )

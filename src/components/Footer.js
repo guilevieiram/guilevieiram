@@ -3,8 +3,9 @@ import '../styles/Footer.css';
 import * as animate from '../animations';
 
 import upArrow from '../images/up-arrow.png';
+import texts from '../data/texts.json';
 
-function Footer() {
+function Footer({language}) {
 
     const scrollTop = () => {
         window.scrollTo({
@@ -19,7 +20,7 @@ function Footer() {
             </p>
 
             <p>
-                All rights reserved.
+                {texts.footer[language.sign]}
             </p>
             {animate.upDown(
                 <button onClick={scrollTop}>    

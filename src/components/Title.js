@@ -5,7 +5,9 @@ import * as animate from '../animations'
 import logo from '../images/logo-orange.png'
 import Typewriter from 'typewriter-effect';
 
-function Title ({scrollContact, showGames}) {
+import texts from '../data/texts.json';
+
+function Title ({language, scrollContact, showGames}) {
     return (
         <div className='title-page'>
             {animate.fromUp(
@@ -13,23 +15,26 @@ function Title ({scrollContact, showGames}) {
                 , 4
             )}
             <div className='Title'>
-                <h1  onClick={showGames} ><Typewriter 
-                    options={{
-                        cursor: '▮',
-                        delay: 200,
+                <div className='greet'>
+                    <h1  onClick={showGames} ><Typewriter 
+                        options={{
+                            cursor: '▮',
+                            delay: 200,
+                            strings: Object.keys(texts.greet).map((element) => 
+                                texts.greet[element]
+                            ),
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    /></h1>
+                </div>
 
-                    }}
-                    onInit={(tw) => {
-                        tw.typeString("Hi! I'm Guile!")
-                        .start();
-                    }}
-                /></h1>
 
-                <p>A Software Developer</p>
+                <p>{texts.title[language.sign]}</p>
                 <button 
                     className='contact-button-title'
                     onClick={scrollContact}
-                >Get in touch!</button>
+                >{texts.contactCall[language.sign]}</button>
             </div>
         </div>
 

@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 
 import './App.css';
+
 import Nav from './components/Nav';
 import Title from './components/Title'
 import Background1 from './components/Background1'
@@ -14,14 +15,20 @@ import Footer from './components/Footer'
 import BackgroundContact from './components/BackgroundContact';
 import MiniGames from './components/MiniGames';
 
+
+import languages from './data/languages.json';
+
+// to deploy page: npm run deploy
+
 function App() {
 
 	const aboutSection = useRef();
 	const projectsSection = useRef();
 	const contactSection = useRef();
 
-	const [showMinigames, setShowMinigames] = useState(false)
+	const [showMinigames, setShowMinigames] = useState(false);
     const [sideBar, setSideBar] = useState(false);
+	const [language, setLanguage] = useState(languages[0]);
 
 	const scrollToSection = (element) => {        
 		window.scrollTo({
@@ -33,9 +40,15 @@ function App() {
   	return (
     	<div className="App">
 
-			<Background1 />
+			<Background1 
+				language={language}
+			/>
 
-			<MiniGames display={showMinigames} setDisplay={setShowMinigames}/>	
+			<MiniGames 
+				language={language}
+				display={showMinigames} 
+				setDisplay={setShowMinigames}
+			/>	
 
 			<div 
 				className='page page-1'
@@ -46,12 +59,15 @@ function App() {
 				}
 			>
 				<Title
+					language={language}
 					scrollContact={() => scrollToSection(contactSection)}
 					showGames={() => {setShowMinigames(!showMinigames)}}
 				/>
 			</div>	
 
 			<Nav 
+				language={language}
+				setLanguage={setLanguage}
 				scrollAbout={() => scrollToSection(aboutSection)}
 				scrollProjects={() => scrollToSection(projectsSection)}
 				scrollContact={() => scrollToSection(contactSection)}
@@ -68,7 +84,10 @@ function App() {
 			}}>
 
 				<Profile />
-				<About reference={aboutSection} />
+				<About 
+					language={language} 
+					reference={aboutSection} 
+				/>
 
 			</div>
 
@@ -76,13 +95,21 @@ function App() {
 
 			<BallsBackground />
 			
-			<Projects reference={projectsSection} />
+			<Projects 
+				reference={projectsSection} 
+				language={language}	
+			/>
 
-			<Contact reference={contactSection} />
+			<Contact 
+				reference={contactSection}
+				language={language}	
+			/>
 			
 			<BackgroundContact />
 
-			<Footer />
+			<Footer 
+				language={language}
+			/>
 
     	</div>
   	);

@@ -28,7 +28,7 @@
 .arrows {
     position: absolute;
     top: 90vh;
-    left: 90vw;
+    left: 85vw;
     transform: translate(-50%, -50%);
     filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
 
@@ -45,6 +45,7 @@
 .arrows-mobile {
     display: none;
     text-align: center;
+    min-width: 8rem;
 }
 .arrows-mobile p {
     font-size: 1rem;

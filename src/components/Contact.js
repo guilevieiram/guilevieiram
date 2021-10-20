@@ -4,12 +4,16 @@ import '../styles/Contact.css';
 import ContactForm from './ContactForm'
 import SocialMedia from './SocialMedia';
 
-function Contact({reference}) {
+import texts from '../data/texts.json';
+
+function Contact({language, reference}) {
     return (
         <div className="Contact">
             <div className="message-container" ref={reference}>
-                <h1>Lets Talk!</h1>
-                <ContactForm />
+                <h1>{texts.contactTitle[language.sign]}</h1>
+                <ContactForm 
+                    language={language}
+                />
             </div>
             <div className="social-media">
                 <SocialMedia />

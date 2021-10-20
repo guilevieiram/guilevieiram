@@ -6,9 +6,10 @@ import emailjs from 'emailjs-com';
 
 import sendButton from '../images/send-button.png';
 
-// import emailjs from 'emailjs-com';
+import texts from '../data/texts.json';
 
-function ContactForm () {
+
+function ContactForm ({language}) {
 
 
     const sendEmail = (e) => {
@@ -27,11 +28,10 @@ function ContactForm () {
 
     return (
         <form className="ContactForm" action="" onSubmit={sendEmail}>
-            <input className='input' type="email" name='email' placeholder='Email' required />
-            <input className='input' type="text" name='subject' placeholder='Subject' />
-            <textarea className='message' type="text" name='message' placeholder='Message' required />
+            <input className='input' type="email" name='email' placeholder={texts.contactForm[language.sign][0]} required />
+            <input className='input' type="text" name='subject' placeholder={texts.contactForm[language.sign][1]} />
+            <textarea className='message' type="text" name='message' placeholder={texts.contactForm[language.sign][2]} required />
             <span style={{zIndex: '3'}}>{animate.upDownLight(<input className='submit-button' type="image" alt='' src={sendButton} value="send" />)}</span>
-            
         </form>
     )
 }

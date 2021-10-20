@@ -8,3 +8,14 @@ TO DO :
 - fix tic tac toe iphone view shit;
 
 - implement different languages;
+    create drop down menu 
+    create states to handle the language anchored on the app.js
+    FIX title not re'escribing (kinda done)
+
+    fix hiperlinks on about section
+    write pt and fr versions of about and projects descriptions OK
+
+    
+    
+    fix flags in the changing language thing
+    style everything

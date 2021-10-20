@@ -1,49 +1,81 @@
 [
     {
         "title": "G-Flight",
-        "description": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
+        "description": {
+            "en": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
+            "fr": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
+            "pt": "A web app notifies users of the best flight deals to the most wanted locations in the world!"
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/g-flight.png",
         "link": "https://gflight.ga"
     },
     {
         "title": "Curriculum",
-        "description": "A web portifolio build from scratch for my father ",
+        "description": {
+            "en": "A web portifolio build from scratch for my father ",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/decatmanhaes.png",
         "link": "https://guilevieiram.github.io/decatmanhaes/"
     },
     {
         "title": "To Do App",
-        "description": "A desktop todo app that built from scratch on Python that features local and cloud storage.",
+        "description": {
+            "en": "A desktop todo app that built from scratch on Python that features local and cloud storage.",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/todo.PNG",
         "link": "https://github.com/guilevieiram/todo_app"
     },
     {
         "title": "Recipe Sorting AI",
-        "description": "A Natural Language Processing AI that sorts recipes accordingly to their culinary techniques.",
+        "description": {
+            "en": "A Natural Language Processing AI that sorts recipes accordingly to their culinary techniques.",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/recipe-sorting.png",
         "link": "https://github.com/guilevieiram/recipe_sorting"
     },
     {
         "title": "ClassApp",
-        "description": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting Ai",
+        "description": {
+            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting Ai",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/classapp.PNG",
         "link": "https://github.com/guilevieiram/classapp"
     },
     {
         "title": "Cuukin Tinder",
-        "description": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/deslike model.",
+        "description": {
+            "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/deslike model.",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/cuukin-tinder.png",
         "link": "https://cuukintinder.herokuapp.com/"
     },
     {
         "title": "Pomodoro",
-        "description": "A Desktop App to help you keep track of your studies sessions and be more productive. Build on Python.",
+        "description": {
+            "en": "A Desktop App to help you keep track of your studies sessions and be more productive. Build on Python.",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/pomodoro.PNG",
         "link": "https://github.com/guilevieiram/100_days/tree/main/pomodoro"
     },
     {
         "title": "Python Arcade",
-        "description": "Pong, Snake and Road Crossing, all built on Python",
+        "description": {
+            "en": "Pong, Snake and Road Crossing, all built on Python",
+            "fr": "",
+            "pt": ""
+        },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/arcade.PNG",
         "link": "https://github.com/guilevieiram/100_days"
     }

@@ -21,8 +21,12 @@ import blobHamburgerBlue from '../images/blob-hamburger-blue.png';
 import blobSideNavOrange from '../images/blob-side-nav-orange.png';
 import blobSideNavBlue from '../images/blob-side-nav-blue.png';
 
+import languages from '../data/languages.json';
+import texts from '../data/texts.json';
 
-function Nav ({scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar}) {
+
+
+function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar}) {
 
     const [scrolled, setScrolled] = useState(false);
 
@@ -34,9 +38,15 @@ function Nav ({scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar})
         setSideBar(!sideBar);
     }
 
+    const findLanguage = (sign) => {
+        let selectedLang = 'en';
+        languages.forEach((lang) => {
+            if(sign === lang.sign){selectedLang = lang}
+        })
+        return selectedLang;
+    }
+
     window.addEventListener('scroll', handleScroll)
-
-
 
     return (
         <div className={'Nav' + (scrolled ? ' sticky' : '')}>
@@ -82,8 +92,8 @@ function Nav ({scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar})
                 </div>
 
                 <div className={"side-bar" + (sideBar ? ' side-bar-on' : ' side-bar-off')}>
-                    {animate.wobleLight(<img className='blob-side-nav-blue' src={blobSideNavBlue} alt="" />)}
-                    {animate.wobleLight(<img className='blob-side-nav-orange' src={blobSideNavOrange} alt="" />)}
+                    {animate.upDownLight(<img className='blob-side-nav-blue' src={blobSideNavBlue} alt="" />)}
+                    {animate.upDownLight(<img className='blob-side-nav-orange' src={blobSideNavOrange} alt="" />)}
                 </div>
 
             </div>
@@ -118,15 +128,31 @@ function Nav ({scrollAbout, scrollProjects, scrollContact, sideBar, setSideBar})
                             <p onClick={() => {
                                 scrollAbout();
                                 handleSetSidebar();
-                            }}>About</p>
+                            }}>{texts.navbar[language.sign][0]}</p>
                             <p onClick={() => {
                                 scrollProjects();
                                 handleSetSidebar();
-                            }}>Projects</p>
+                            }}>{texts.navbar[language.sign][1]}</p>
                             <p onClick={() => {
                                 scrollContact();
                                 handleSetSidebar();
-                            }}>Contact</p>
+                            }}>{texts.navbar[language.sign][2]}</p>
+                            <form action="">
+                            <select name="language-form" id="language-form"
+                                onChange={(event) => {
+                                    setLanguage(findLanguage(event.target.value));
+                                }}
+                                className='flag'
+                            >
+                                {languages.map((lang)=>
+                                    <option 
+                                        value={lang.sign}
+                                        key={lang.sign}
+                                    >{lang.flag}</option>
+                                )}
+                            </select>
+                            </form>
+
                         </div>
                     </>, 4.5
                 )}

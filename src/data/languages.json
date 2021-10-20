@@ -1,0 +1,17 @@
+[
+    {
+        "name": "English",
+        "sign": "en",
+        "flag": "🇬🇧"
+    },
+    {
+        "name": "French",
+        "sign": "fr",
+        "flag": "🇫🇷"
+    },
+    {
+        "name": "Portuguese",
+        "sign": "pt",
+        "flag": "🇧🇷"
+    }
+]

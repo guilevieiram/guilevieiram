@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import '../styles/Card.css';
+import texts from '../data/texts.json';
 
 
-function Card({image, title, text, link}) {
+function Card({language, image, title, text, link}) {
 
     const [isShown, setIsShown] = useState(false);
 
@@ -23,7 +24,7 @@ function Card({image, title, text, link}) {
             <div className={'card-info' + (isShown ? ' show' : ' hide')}>
                 <h3>{title}</h3>
                 <p>{text}</p>
-                <button onClick={openLink}>See more</button>
+                <button onClick={openLink}>{texts.projectsLink[language.sign]}</button>
             </div>
         </div>
     )
