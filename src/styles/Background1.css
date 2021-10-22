@@ -29,17 +29,13 @@
     position: absolute;
     top: 90vh;
     left: 85vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) ;
     filter: drop-shadow(5px 5px 2px rgb(0, 0, 0));
 
     cursor: pointer;
 
     transition: all 0.5s ease;
-}
-
-.arrows:hover {
-    transform: translate(-50%, -50%) scale(1.05);
-    transition: all 0.5s ease;
+    z-index: 5;
 }
 
 .arrows-mobile {
@@ -54,7 +50,7 @@
     margin: 1rem 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .blob-top-blue,
     .blob-top-orange{
         display: none;

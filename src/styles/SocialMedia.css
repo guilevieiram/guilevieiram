@@ -1,6 +1,5 @@
 .SocialMedia {
     height: 60vh;
-    margin-top: 20vh;
 }
 
 .social-media-column {
@@ -59,7 +58,7 @@
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .SocialMedia{
         position: absolute;
         left: 50%;

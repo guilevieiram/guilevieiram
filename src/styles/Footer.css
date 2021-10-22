@@ -39,7 +39,7 @@
     width: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .Footer button {
         min-width: 2rem;
         min-height: 2rem;

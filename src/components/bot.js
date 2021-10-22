@@ -1,6 +1,4 @@
-Array.prototype.sample = function(){
-    return this[Math.floor(Math.random()*this.length)];
-}
+const sample = (arr) => arr[Math.floor(Math.random()*arr.length)];
 
 const getPositions = (piece, squareList) => (
     squareList.reduce((reduced, value, index) => (
@@ -15,7 +13,7 @@ export const getPlay = (board, easy) => {
     if(easy){
         // easy mode or dumb bot
         const emptyPositions = getPositions(null, board);
-        return emptyPositions.sample(); 
+        return sample(emptyPositions); 
     }
     else{
         // best plays bot

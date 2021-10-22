@@ -6,12 +6,16 @@
     width: 90%;
     max-width: 30rem;
     margin: 0 1rem;
+    line-height: 1.3rem;
 }
 .About h2 {
     margin: 1rem 0;
     font-size: 2.5rem;
+    height: 2.5rem;
+    text-shadow: 5px 5px 10px black;
 }
 .About p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0.5rem 0;
+    text-shadow: 2px 2px 8px black;
 }

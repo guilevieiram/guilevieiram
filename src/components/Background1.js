@@ -50,7 +50,7 @@ function Background1 ({language}) {
 
             
             {animate.fromDown(
-                <>
+                <div>
                     <div className="arrows" onClick={scrollDown}>
                         {animate.upDown(
                             <img src={arrows} alt="" />,
@@ -67,7 +67,7 @@ function Background1 ({language}) {
                         )}
                         
                     </div>
-                </>, 4.2
+                </div>, 4.2
             )}
 
 

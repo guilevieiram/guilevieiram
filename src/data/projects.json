@@ -3,8 +3,8 @@
         "title": "G-Flight",
         "description": {
             "en": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
-            "fr": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
-            "pt": "A web app notifies users of the best flight deals to the most wanted locations in the world!"
+            "fr": "Une application web qui notifie les utilisateurs des meilleures offres de vol ",
+            "pt": "Uma aplicação web que notifica os usuários dos voos com melhores preços para os destinos mais cobiçados do mundo!"
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/g-flight.png",
         "link": "https://gflight.ga"
@@ -12,9 +12,9 @@
     {
         "title": "Curriculum",
         "description": {
-            "en": "A web portifolio build from scratch for my father ",
+            "en": "A web CV build from scratch for my father.",
             "fr": "",
-            "pt": ""
+            "pt": "Um curriculo web construido do zero para o meu pai."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/decatmanhaes.png",
         "link": "https://guilevieiram.github.io/decatmanhaes/"
@@ -24,7 +24,7 @@
         "description": {
             "en": "A desktop todo app that built from scratch on Python that features local and cloud storage.",
             "fr": "",
-            "pt": ""
+            "pt": "Uma aplicação de tarefas desktop escrito em Python que conta com armazenamento local e em nuvem. "
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/todo.PNG",
         "link": "https://github.com/guilevieiram/todo_app"
@@ -34,7 +34,7 @@
         "description": {
             "en": "A Natural Language Processing AI that sorts recipes accordingly to their culinary techniques.",
             "fr": "",
-            "pt": ""
+            "pt": "Uma IA de Processamento de Linguagem Natura que classifica receitas de acordo com as técnicas culinárias necessárias."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/recipe-sorting.png",
         "link": "https://github.com/guilevieiram/recipe_sorting"
@@ -42,9 +42,9 @@
     {
         "title": "ClassApp",
         "description": {
-            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting Ai",
+            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting AI.",
             "fr": "",
-            "pt": ""
+            "pt": "Uma aplicação desktop simples para classificação de receitas de acordo com suas técnicas culinárias. Ponto de coleção de dados para o treinamento de uma IA."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/classapp.PNG",
         "link": "https://github.com/guilevieiram/classapp"
@@ -54,7 +54,7 @@
         "description": {
             "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/deslike model.",
             "fr": "",
-            "pt": ""
+            "pt": "Tinder... mas pra comida! Uma plataforma web feita para gerar recomendações de pratos para os usuários dependendo dos seus gostos individuais, em um sistema tipo Tinder de gosto/não gosto."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/cuukin-tinder.png",
         "link": "https://cuukintinder.herokuapp.com/"
@@ -64,7 +64,7 @@
         "description": {
             "en": "A Desktop App to help you keep track of your studies sessions and be more productive. Build on Python.",
             "fr": "",
-            "pt": ""
+            "pt": "Uma aplicação desktop que te ajuda a manter seu ritmo de estudo constante e ser mais produtivo. Escrito em Python."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/pomodoro.PNG",
         "link": "https://github.com/guilevieiram/100_days/tree/main/pomodoro"
@@ -74,7 +74,7 @@
         "description": {
             "en": "Pong, Snake and Road Crossing, all built on Python",
             "fr": "",
-            "pt": ""
+            "pt": "Pong, o 'Jogo da Cobrinha' e 'Road crossing', tudo construido em Python."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/arcade.PNG",
         "link": "https://github.com/guilevieiram/100_days"

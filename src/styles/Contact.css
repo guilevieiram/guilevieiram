@@ -10,7 +10,7 @@
     margin: auto 0 auto 5vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .Contact{
         justify-content: center;
         height: 100vh;

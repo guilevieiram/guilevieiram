@@ -79,7 +79,9 @@ function App() {
 			<div style={{
 				display: 'flex',
 				justifyContent: 'space-around',
+				maxWidth: '70rem',
 				alignItems: 'center',
+				flexWrap: 'wrap',
 				margin: '30vh auto'
 			}}>
 

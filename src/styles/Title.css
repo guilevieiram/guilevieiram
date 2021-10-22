@@ -17,6 +17,7 @@
     animation-delay: 3.3s;
     animation-timing-function: ease;
     animation-fill-mode: backwards;
+    text-shadow: 5px 5px 10px black;
 }
 
 .greet {
@@ -34,7 +35,7 @@
 .contact-button-title {
     padding: 1rem 2rem;
     margin-top: 1rem;
-    background-color: rgb(49, 49, 49);
+    background-color: var(--background-color);
     border: 3px solid var(--highlight-color-2);
     color: var(--highlight-color-2);
     border-radius: 5rem;
@@ -52,11 +53,12 @@
 }
 
 .contact-button-title:hover {
-    transform: translateY(-5px) scale(1.03);
+    background-color: rgb(50, 50, 50);
+    transform: translateY(-5px);
     transition: all 0.5s ease;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .logo{
         display: none;
     }

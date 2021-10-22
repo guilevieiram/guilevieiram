@@ -1,4 +1,5 @@
 * {
+
 	margin: 0;
 	border: none;
 	box-sizing: border-box;
@@ -10,6 +11,10 @@
 	--highlight-color-1: #EE7400;
 	--highlight-color-2: #1B98E0;
 	--highlight-color-3: #2A9D8F;
+}
+
+* {
+	--mobile-size: 768px;
 }
 
 html {
@@ -34,6 +39,7 @@ h2,
 h3 {
 	color: var(--highlight-color-1);
 	font-weight: normal;
+	text-shadow: 5px 5px 10px black;
 	font-family: 
 		'Source Code Pro',
 		monospace;

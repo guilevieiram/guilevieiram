@@ -19,14 +19,16 @@
     height: 100%;
     width: 100%;
 }
+.social-background-container .div {
+    position: absolute;
+    bottom: 0;
+    right: 5vw;
+}
 
 .blob-social-orange,
 .blob-social-blue
 {
     position: absolute;
-
-    top: 0;
-    right: 5vw;
 
     transform: translate(50%, 0);
 
@@ -37,7 +39,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .BackgroundContact{
         display: none;
     }
