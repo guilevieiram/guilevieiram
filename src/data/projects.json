@@ -13,7 +13,7 @@
         "title": "Curriculum",
         "description": {
             "en": "A web CV build from scratch for my father.",
-            "fr": "",
+            "fr": "Un CV web construit de zéro pour mon papa.",
             "pt": "Um curriculo web construido do zero para o meu pai."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/decatmanhaes.png",
@@ -23,7 +23,7 @@
         "title": "To Do App",
         "description": {
             "en": "A desktop todo app that built from scratch on Python that features local and cloud storage.",
-            "fr": "",
+            "fr": "Une application desktop de liste de chose à faire, construit en Python, cela comporte un stockage local et cloud.",
             "pt": "Uma aplicação de tarefas desktop escrito em Python que conta com armazenamento local e em nuvem. "
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/todo.PNG",
@@ -33,8 +33,8 @@
         "title": "Recipe Sorting AI",
         "description": {
             "en": "A Natural Language Processing AI that sorts recipes accordingly to their culinary techniques.",
-            "fr": "",
-            "pt": "Uma IA de Processamento de Linguagem Natura que classifica receitas de acordo com as técnicas culinárias necessárias."
+            "fr": "Une IA de Language Naturel que classifie recettes par ses techniques culinaires.",
+            "pt": "Uma IA de Processamento de Linguagem Natural que classifica receitas de acordo com as técnicas culinárias necessárias."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/recipe-sorting.png",
         "link": "https://github.com/guilevieiram/recipe_sorting"
@@ -43,7 +43,7 @@
         "title": "ClassApp",
         "description": {
             "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting AI.",
-            "fr": "",
+            "fr": "Une application desktop simple pour classifie méthodes de recettes. Utilisé comme point de collecte de data pour la IA de classification de recette.",
             "pt": "Uma aplicação desktop simples para classificação de receitas de acordo com suas técnicas culinárias. Ponto de coleção de dados para o treinamento de uma IA."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/classapp.PNG",
@@ -53,7 +53,7 @@
         "title": "Cuukin Tinder",
         "description": {
             "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/deslike model.",
-            "fr": "",
+            "fr": "Tinder pour nourriture! Une plat-form web qui génère des recommendations d'accord avec les préfèrence des utilisateurs, dans un modèle Tider: j'aime / je n'aime pas. ",
             "pt": "Tinder... mas pra comida! Uma plataforma web feita para gerar recomendações de pratos para os usuários dependendo dos seus gostos individuais, em um sistema tipo Tinder de gosto/não gosto."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/cuukin-tinder.png",
@@ -63,7 +63,7 @@
         "title": "Pomodoro",
         "description": {
             "en": "A Desktop App to help you keep track of your studies sessions and be more productive. Build on Python.",
-            "fr": "",
+            "fr": "Une appli desktop qui vous aide en votres études et augmente votre productivité. Construit en Pyhton.",
             "pt": "Uma aplicação desktop que te ajuda a manter seu ritmo de estudo constante e ser mais produtivo. Escrito em Python."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/pomodoro.PNG",
@@ -73,7 +73,7 @@
         "title": "Python Arcade",
         "description": {
             "en": "Pong, Snake and Road Crossing, all built on Python",
-            "fr": "",
+            "fr": "Pong, Snake et Road Crossing, tout construit en Python.",
             "pt": "Pong, o 'Jogo da Cobrinha' e 'Road crossing', tudo construido em Python."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/arcade.PNG",
