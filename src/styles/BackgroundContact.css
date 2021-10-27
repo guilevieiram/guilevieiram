@@ -13,12 +13,12 @@
 
 }
 
-
 .social-background-container {
     position: relative;
     height: 100%;
     width: 100%;
 }
+
 .social-background-container .div {
     position: absolute;
     bottom: 0;
@@ -30,7 +30,7 @@
 {
     position: absolute;
 
-    transform: translate(50%, 0);
+    transform: translate(50vw, 0);
 
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
 }

@@ -1,5 +1,6 @@
 .Contact {
     width: 90vw;
+    max-width: 70rem;
     margin: 10vh auto;
     display: flex;
     justify-content: space-between;
