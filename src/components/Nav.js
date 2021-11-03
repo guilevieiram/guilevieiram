@@ -39,7 +39,7 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
     }
 
     const findLanguage = (sign) => {
-        let selectedLang = 'en';
+        let selectedLang = 'fr';
         languages.forEach((lang) => {
             if(sign === lang.sign){selectedLang = lang}
         })
@@ -144,11 +144,14 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
                                 }}
                                 className='flag'
                             >
-                                {languages.map((lang)=>
-                                    <option 
-                                        value={lang.sign}
-                                        key={lang.sign}
-                                    >{lang.flag}</option>
+                                {languages.map((lang)=>{
+                                    if(lang.sign === language.sign){
+                                        return (<option value={lang.sign}key={lang.sign} selected>{lang.flag}</option>)
+                                    }
+                                    else{
+                                        return (<option value={lang.sign}key={lang.sign}>{lang.flag}</option>)
+                                    }
+                                }   
                                 )}
                             </select>
                             </form>

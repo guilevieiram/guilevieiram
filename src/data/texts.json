@@ -15,8 +15,8 @@
         "pt": "Vamos"
     },
     "greet": {
-        "en": "Hi there! <br>I'm <br>Guile!",
         "fr": "Salut!<br>Je suis <br>Guile!",
+        "en": "Hi there! <br>I'm <br>Guile!",
         "pt": "Ei! <br>Me chamo <br>Guile!"
     },
     "title": {
