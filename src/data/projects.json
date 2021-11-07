@@ -1,5 +1,15 @@
 [
     {
+        "title": "Spotitime",
+        "description": {
+            "en": "A web application that creates Spotify playlists with the most played songs of any time period you like!",
+            "fr": "Une application web qui crée des listes de lecture Spotify avec les chansons plus jouées de toute periode! ",
+            "pt": "Uma aplicação web que cria playlists do Spotify com as canções mais tocadas de qualquer época que você escolher!"
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/spotitime.PNG",
+        "link": "https://guilevieiram.github.io/spotitime"
+    },
+    {
         "title": "G-Flight",
         "description": {
             "en": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
