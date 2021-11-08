@@ -72,18 +72,17 @@
     "aboutText": {
         "en": ["Software Engineering student (20) at École Polytechnique de Paris very fond of Software Development. Worked in the fields of web development and machine learning in Cuukin, a tech-ed startup based in London.", 
         "Brazilian, proficiency in English (C2) and French (B1). No problems in dealing with international and cultural diverse environments. Lived in England and France. ",
-        "Communicative, open minded and easly adapted personallity! Don't hesitate to reach out to give/receive advice, ask for help or just to chat!",
-        "Music, cuisine, bread, cats, karate and boxing. Basically all the things I love doing appart from programming and studying!"],
+        "Communicative, open minded and easly adapted personallity! Don't hesitate to reach out to give/receive advice, ask for help or just to chat!"
+        ],
 
         "fr": ["Étudiant en Génie Logiciel (20) à l'École Polytechnique de Paris. J'ai travaillé dans les domaines du Developpement Web et de l'Apprentissage Automatique chez Cuukin, une start-up de cuisine et de technologie, à Londres.",
         "Brésilien, compétent en anglais (C2) et français (B1). Pour moi c'est un plaisir de travailler dans un environnement international et diverse. J'ai habité en Angleterre et aussi en France.",
-        "Communicatif et ouvert d'esprit. N'hesitez pas à me contacter pour me demander/donner des conseils, demander de l'aide ou seulement pour discuter!",
-        "Musique, cuisine, pain, chats, karaté et boxing. C'est ce que j'aime faire en dehors de la programmation et de mes études."
+        "Communicatif et ouvert d'esprit. N'hesitez pas à me contacter pour me demander/donner des conseils, demander de l'aide ou seulement pour discuter!"
         ],
 
         "pt": ["Estudante de Engenharia de Sofware (20) em École Polytechnique de Paris apaixonado com Desenvolvimento. Trabalhei com Desenvolvimento Web e Aprendizado de Máquina na Cuukin, uma startup de educação e tecnologia situada em Londres.", 
         "Brasileiro, com proficiência em Inglês (C2) e Francês (B1). Não tenho problemas em participar de ambientes internacionais e de diversidade cultural. Vivi na Inglaterra e na França.",
-        "Comunicativo, de mente aberta e facilmente adaptável às mais diversas situações! Não hesite em dar conselhos, pedir ajuda ou só conversar!", 
-        "Música, cosinha, pão, gatos, karatê e box. Basicamente todas as outras coisas que eu amo fazer além do desenvolvimento."]
+        "Comunicativo, de mente aberta e facilmente adaptável às mais diversas situações! Não hesite em dar conselhos, pedir ajuda ou só conversar!"
+        ]
     }
 }
