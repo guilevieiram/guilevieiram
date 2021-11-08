@@ -15,14 +15,14 @@
         "pt": "Vamos"
     },
     "greet": {
-        "fr": "Salut!<br>Je suis <br>Guile!",
         "en": "Hi there! <br>I'm <br>Guile!",
+        "fr": "Salut!<br>Je suis <br>Guile!",
         "pt": "Ei! <br>Me chamo <br>Guile!"
     },
     "title": {
-        "en": "A Software Developer",
-        "fr": "Développeur de Logiciels",
-        "pt": "Desenvolvedor de Software"
+        "en": "Software Development | Web Development",
+        "fr": "Développement de Logiciels | Développement Web",
+        "pt": "Desenvolvimento de Software | Desenvolvimento Web"
     },
     "contactCall":{
         "en": "Get in touch!",
