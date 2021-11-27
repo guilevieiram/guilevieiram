@@ -1,5 +1,15 @@
 [
     {
+        "title": "Bruna Fernandes Portifolio",
+        "description": {
+            "en": "A web based portifolio with an unique and minimalistic design made for my partner, a Chocolatier & Patissier based in London.",
+            "fr": "Un résumé en ligne avec une conception unique et minimaliste qui j'ai réalisé pour ma petite amie, a Chocolatière & Patissière à Londres.",
+            "pt": "Um portifolio web com um design único e minimalista feito para a minha parceira, uma Chocolatier & Patissier de Londres."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/bruna_fernandes.png",
+        "link": "brunafernandes.guile.ga"
+    },
+    {
         "title": "Spotitime",
         "description": {
             "en": "A web application that creates Spotify playlists with the most played songs of any time period you like!",
@@ -7,7 +17,7 @@
             "pt": "Uma aplicação web que cria playlists do Spotify com as canções mais tocadas de qualquer época que você escolher!"
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/spotitime.PNG",
-        "link": "https://guilevieiram.github.io/spotitime"
+        "link": "https://spotitime.guile.ga"
     },
     {
         "title": "G-Flight",
