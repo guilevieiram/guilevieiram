@@ -6,18 +6,15 @@
 
 ## I'm a 20yo computer science student at École Polytechnique de Paris.
 
-<br/>
 
 
 ### *In love with Software Development*
 - FullSack Developer (Web)
 - Machine Learning (Natural Language Processing)
 
-<br/>
 
 ----
 
-<br/>
 
 ## Connect with me:
 
@@ -34,7 +31,6 @@
 
 ### Visit my portifolio at [guile.ga](https://guile.ga)
 
-<br/>
 
 ----
 
@@ -56,7 +52,6 @@
 
 ----
 
-<br/>
 
 > <span style="display: flex; align-items: center ;">
 > <img style="margin: 20px;"alt="Voca" width="80px" src="https://raw.githubusercontent.com/guilevieiram/voca/448a9e0d6abd9822f017e27426172a033bd4264b/frontend/src/assets/nav-logo.svg"/>
@@ -86,7 +81,6 @@
 
 ----
 
-<br/>
 <span style="width: full; display: flex; justify-content: center;">
 
 [![Guile's GitHub stats](https://github-readme-stats.vercel.app/api?username=guilevieiram&theme=dark&show_icons=true&hide=prs)](https://github.com/anuraghazra/github-readme-stats)
