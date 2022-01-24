@@ -1,36 +1,110 @@
-# Hi there! I'm Guile!
-## I study sciences at École Polytechnique and I'm interested in Machine learning and web development!
+<div style="width: full; display: flex; align-items: center; justify-content: space-between">
+<h1 style="margin:auto;">
+✌️ Hi there! I'm Guile!
+</h1>
+</div>
 
-- 🌱 I’m currently learning french, python and linux.
-- 📚 Teaching programming to my younger (12yo) brother
-- ⚡ I love to draw and play bass, drums and guitar. I also love baking!
+## I'm a 20yo computer science student at École Polytechnique de Paris.
 
-### Connect with me:
+<br/>
 
-[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
-[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+### *In love with Software Development*
+- FullSack Developer (Web)
+- Machine Learning (Natural Language Processing)
+
+<br/>
+
+----
+
+<br/>
+
+## Connect with me:
+
+
+
+[<img align="left" style="margin: 10px;" alt="Twitter" width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-128.png" />][linkedin]
+[<img align="left" style="margin: 10px;" alt="Twitter" width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-128.png" />][instagram]
+[<img align="left" style="margin: 10px;" alt="Twitter" width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-128.png" />][twitter]
+[<img align="left" style="margin: 10px;" alt="Twitter" width="30px" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Whatsapp2_colored_svg-128.png" />][whatsapp]
+
+<br/>
+<br/>
+<br/>
+
+### Visit my portifolio at [guile.ga](https://guile.ga)
+
+<br/>
+
+----
+
+### Languages and Tools
+
+<br/>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+
+----
+
+<br/>
+
+> <span style="display: flex; align-items: center ;">
+> <img style="margin: 20px;"alt="Voca" width="80px" src="https://raw.githubusercontent.com/guilevieiram/voca/448a9e0d6abd9822f017e27426172a033bd4264b/frontend/src/assets/nav-logo.svg"/>
+> <div>
+>
+>  ### *Currently building **Voca**:*
+>
+>  A language learning app that uses top of the line ML technology!
+> </div>
+> 
+> </span>
+>
+> The stack:
+> - React (Typescript)
+> - Flask (Python)
+> - Spacy (NLP)
+> - PostgreSQL (Amazon AWS)
+> - Heroku
+
+----
+
+### *Experience in:*
+- Full stack development
+- Testing (Python)
+- Project Management
+- Web Design 
+
+----
+
+<br/>
+<span style="width: full; display: flex; justify-content: center;">
+
+[![Guile's GitHub stats](https://github-readme-stats.vercel.app/api?username=guilevieiram&theme=dark&show_icons=true&hide=prs)](https://github.com/anuraghazra/github-readme-stats)
+
+</span>
+
+
+----
+
+
 
 <br />
-
-### Languages and Tools:
-
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" />][python]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" />][jupyter]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg"/>][flask]
-[<img align="left" alt="python" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"/>][sklearn]
-[<img align="left" alt="python" width="26px" src="https://pandas.pydata.org/static/img/pandas_mark.svg"/>][pandas]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg"/>][postgresql]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"/>][html]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-plain.svg"/>][linux]
-[<img align="left" alt="python" width="26px" src="https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-original.svg"/>][matlab]
-
 
 
 [github]: https://github.com/guilevieiram
 [twitter]: https://twitter.com/guilevieiram
 [instagram]: https://instagram.com/guilevieiram
+[whatsapp]: https://wa.me/5531998524668
 [linkedin]: https://linkedin.com/in/guilhermevieiram
 [python]: https://www.python.org/
 [jupyter]:https://jupyter.org/
@@ -41,3 +115,4 @@
 [html]: https://en.wikipedia.org/wiki/HTML5
 [linux]: https://ubuntu.com/
 [matlab]: https://www.mathworks.com/products/matlab.html
+[voca]: https://github.com/guilevieiram/voca
