@@ -4,7 +4,7 @@
 </h1>
 </div>
 
-## I'm a 20yo computer science student at École Polytechnique de Paris.
+## I'm a 21yo computer science student at École Polytechnique de Paris.
 
 
 
