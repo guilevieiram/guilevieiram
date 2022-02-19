@@ -39,75 +39,82 @@ function App() {
 
   	return (
     	<div className="App">
+			<div className="screen">
 
-			<Background1 
-				language={language}
-			/>
-
-			<MiniGames 
-				language={language}
-				display={showMinigames} 
-				setDisplay={setShowMinigames}
-			/>	
-
-			<div 
-				className='page page-1'
-				onClick={() => {
-					if(showMinigames){setShowMinigames(false)}
-					if(sideBar){setSideBar(false)}
-				}
-				}
-			>
-				<Title
+				<Background1 
 					language={language}
+				/>
+
+				<MiniGames 
+					language={language}
+					display={showMinigames} 
+					setDisplay={setShowMinigames}
+				/>	
+
+				<div 
+					className='page page-1'
+					onClick={() => {
+						if(showMinigames){setShowMinigames(false)}
+						if(sideBar){setSideBar(false)}
+					}
+					}
+				>
+					<Title
+						language={language}
+						scrollContact={() => scrollToSection(contactSection)}
+						showGames={() => {setShowMinigames(!showMinigames)}}
+					/>
+				</div>	
+
+				<Nav 
+					language={language}
+					setLanguage={setLanguage}
+					scrollAbout={() => scrollToSection(aboutSection)}
+					scrollProjects={() => scrollToSection(projectsSection)}
 					scrollContact={() => scrollToSection(contactSection)}
-					showGames={() => {setShowMinigames(!showMinigames)}}
+					sideBar={sideBar}
+					setSideBar={setSideBar}
 				/>
-			</div>	
-
-			<Nav 
-				language={language}
-				setLanguage={setLanguage}
-				scrollAbout={() => scrollToSection(aboutSection)}
-				scrollProjects={() => scrollToSection(projectsSection)}
-				scrollContact={() => scrollToSection(contactSection)}
-				sideBar={sideBar}
-				setSideBar={setSideBar}
-			/>
 
 
-			<div style={{
-				display: 'flex',
-				justifyContent: 'space-around',
-				maxWidth: '70rem',
-				alignItems: 'center',
-				flexWrap: 'wrap',
-				margin: '30vh auto'
-			}}>
+				<div style={{
+					display: 'flex',
+					justifyContent: 'space-around',
+					maxWidth: '70rem',
+					alignItems: 'center',
+					flexWrap: 'wrap',
+					margin: '30vh auto'
+				}}>
 
-				<Profile />
-				<About 
-					language={language} 
-					reference={aboutSection} 
+					<Profile />
+					<About 
+						language={language} 
+						reference={aboutSection} 
+					/>
+
+				</div>
+
+				<Skills />
+
+				<BallsBackground />
+
+				<Projects 
+					reference={projectsSection} 
+					language={language}	
 				/>
+
+
+				<Contact 
+					reference={contactSection}
+					language={language}
+					background={
+						<BackgroundContact />
+
+					}	
+				/>
+
 
 			</div>
-
-			<Skills />
-
-			<BallsBackground />
-			
-			<Projects 
-				reference={projectsSection} 
-				language={language}	
-			/>
-
-			<Contact 
-				reference={contactSection}
-				language={language}	
-			/>
-			
-			<BackgroundContact />
 
 			<Footer 
 				language={language}

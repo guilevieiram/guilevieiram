@@ -6,7 +6,7 @@ import SocialMedia from './SocialMedia';
 
 import texts from '../data/texts.json';
 
-function Contact({language, reference}) {
+function Contact({language, reference, background}) {
     return (
         <div className="Contact">
             <div className="message-container" ref={reference}>
@@ -17,6 +17,7 @@ function Contact({language, reference}) {
             </div>
             <div className="social-media">
                 <SocialMedia />
+                {/* {background} */}
             </div>
         </div>
     )

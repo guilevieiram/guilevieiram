@@ -1,7 +1,11 @@
 .App {
   background-color: var(--background-color);
   overflow: hidden;
+}
+.screen {
+  margin: auto;
   position: relative;
+  max-width: 2048px;
 }
 
 .page {

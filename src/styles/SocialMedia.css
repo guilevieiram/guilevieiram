@@ -58,11 +58,12 @@
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
 }
 
-@media only screen and (max-width: 1024px) {
+/* yes im just commenting out the media query to make everything look as if were mobile. */
+/* @media only screen and (max-width: 1024px) { */
     .SocialMedia{
         position: absolute;
         left: 50%;
-        transform: translate(-50%, 0);
+        transform: translate(-50%, 120%);
         bottom: 0;
         width: 100vw;
         max-width: 30rem;
@@ -90,4 +91,4 @@
         display: block;
     }
 
-}
+/* } */

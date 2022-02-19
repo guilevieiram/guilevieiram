@@ -6,10 +6,12 @@
     bottom: 0;
     right: 0;
 
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    max-width: inherit;
 
-    overflow: hidden;
+    overflow: visible;
+    transform: translate(100px, -100px);
 
 }
 
