@@ -11,7 +11,7 @@
     },
     {
         "name": "TypeScript",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/typescript.svg",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/typescript.svg",
         "link": "https://www.javascript.com/"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
         "name": "TailwindCSS",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/tailwindcss.svg",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/tailwindcss.svg",
         "link": "https://tailwindcss.com/"
     },
     {
