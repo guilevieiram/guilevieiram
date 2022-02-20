@@ -70,19 +70,25 @@
         "pt": "Pontos:"
     },
     "aboutText": {
-        "en": ["Software Engineering student (20) at École Polytechnique de Paris very fond of Software Development. Worked in the fields of web development and machine learning in Cuukin, a tech-ed startup based in London.", 
-        "Brazilian, proficiency in English (C2) and French (B1). No problems in dealing with international and cultural diverse environments. Lived in England and France. ",
-        "Communicative, open minded and easly adapted personallity! Don't hesitate to reach out to give/receive advice, ask for help or just to chat!"
+        "en": [
+            "Engineering Student at École Polytechnique de Paris specialized in Software Development. Experiences in FullStack dev, Design, Natural Language Processing, Data Science and Product Management.", 
+            "Having extensive communication and problem solving skills, I prosper in creative and open environments, both in solo activities and in group. Though my international background, having worked in Brazil, UK and living in France, I had the chance to participate in several projects with very diverse teams. Fluent English and advanced French help with those kinds of challenges.",
+            "At ease with Python and TypeScript/JavaScript for backend and frontend development. Familiar with frameworks like React, React Native, Flask and many others. Knowledge in Amazon AWS’s DevOps systems as well as Heroku’s.  SQL databases (specially PostgreSQL), linux and bash scripting are a part of my toolbox. ",
+            "Open to work in interesting projects that challenge my capabilities and push me forward in this never ending learning journey of development!"
         ],
 
-        "fr": ["Étudiant en Génie Logiciel (20) à l'École Polytechnique de Paris. J'ai travaillé dans les domaines du Developpement Web et de l'Apprentissage Automatique chez Cuukin, une start-up de cuisine et de technologie, à Londres.",
-        "Brésilien, compétent en anglais (C2) et français (B1). Pour moi c'est un plaisir de travailler dans un environnement international et diverse. J'ai habité en Angleterre et aussi en France.",
-        "Communicatif et ouvert d'esprit. N'hesitez pas à me contacter pour me demander/donner des conseils, demander de l'aide ou seulement pour discuter!"
+        "fr": [
+            "Étudiant d'Ingénieur à l'École Polytechnique de Paris avec spécialisation dans Development de Logiciels. Expérience dans dev FullStack, Design, Traitement du Langage Naturel e Gestion de Produits.",
+            "Vastes compétences en communication et résolution de problèmes, je prospère dans des environnements créatifs et ouverts, tout seule ou bien en équipe. Mon parcours international, ayant travaillé au Brésil, au Royaume-uni et maintenant en vivent en France, j'ai eu l'opportunité de participer dans plusieurs projets avec des équipes très divers. Les niveaux fluent en Anglais et Avancé en Français m'ont beaucoup aidé avec ces défis. ",
+            "À l'aise avec Python et TypeScript/JavaScript pour le développement back et front. Familiarisé avec les frameworks React, React Native, Flask et autres. Connaissance des systèmes d'Amazon AWS et de Heroku pour DevOps. Les bases de donnés SQL (surtout PostgreSQL), Linux et bash font aussi partie de boite d'outils.",
+            "Je suis ouvert pour travailler dans des projets intéressants qui me défient et qui me motivent à continuer mon interminable parcours d'apprentissage."
         ],
 
-        "pt": ["Estudante de Engenharia de Sofware (20) em École Polytechnique de Paris apaixonado com Desenvolvimento. Trabalhei com Desenvolvimento Web e Aprendizado de Máquina na Cuukin, uma startup de educação e tecnologia situada em Londres.", 
-        "Brasileiro, com proficiência em Inglês (C2) e Francês (B1). Não tenho problemas em participar de ambientes internacionais e de diversidade cultural. Vivi na Inglaterra e na França.",
-        "Comunicativo, de mente aberta e facilmente adaptável às mais diversas situações! Não hesite em dar conselhos, pedir ajuda ou só conversar!"
+        "pt": [
+            "Estudante de Engenharia na École Polytechnique de Paris com especialização em Desenvolvimento de Software. Experiencia em dev FullStack, Design, Processamento de Linguagem Natural (NLP), Ciência de Dados e Gestão de Projetos.",
+            "Por ter extensas capacidades de comunicação e resolução de problemas, eu prospero em ambientes criativos, tanto sozinho quanto em grupo. A vida international, tendo trabalhado no Brasil, no Reino Unido e agora morando na França, me possibilitou participar em diversos projetos com equipes dos mais diferentes países. Inglês fluente e Francês avançado com certeza ajudaram.",
+            "À vontade com Python e TypoScript/JavaScript para desenvolvimento back e front, respectivamente. Familiarizado com frameworks como React, React Native, Flask e várias outras. Conhecimento em DevOps pela Amazon AWS e pelo Heroku. Bases de dados SQL (especialmente PostgreSQL), sistemas Linux e bash são também parte da minha caixa de ferramentas.",
+            "Aberto para trabalhar em projetos interessantes e que me desafiem, me incentivanto a continuar nessa jornada interminável de aprendizado."
         ]
     }
 }

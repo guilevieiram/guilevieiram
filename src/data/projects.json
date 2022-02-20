@@ -1,5 +1,25 @@
 [
     {
+        "title": "Voca",
+        "description": {
+            "en": "A language learning web application that allows you to learn new vocabulary using state of the art Machine Learning (Natural Language Processing).",
+            "fr": "Une appli d'apprentissage de langues que vous permet d'apprendre du vocabulaire en utilisant des algorithms d'Apprentissage Automatique dde pointe (NLP).",
+            "pt": "Um aplicativo web de linguas que permite que você aprenda novo vocabulário utilizando algoritmos de Machine Learning de ponta."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/voca.png",
+        "link": "https://voca.guile.ga"
+    },
+    {
+        "title": "SharedCount",
+        "description": {
+            "en": "A multi platform mobile app that allows simultaneous, real time counting for competitions and team activities.",
+            "fr": "Une appli multi plateforme qui vous permet de compter simultanément et en temps réel dans des compétitions et activités de groupe.",
+            "pt": "Um aplicativo multi plataforma que permite contagem simultânea em tempo real para competições e atividades de grupo."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/shared_count.jpeg",
+        "link": "https://github.com/guilevieiram/shared_count"
+    },
+    {
         "title": "Bruna Fernandes Portifolio",
         "description": {
             "en": "A web based portifolio with an unique and minimalistic design made for my partner, a Chocolatier & Patissier based in London.",
@@ -7,7 +27,7 @@
             "pt": "Um portifolio web com um design único e minimalista feito para a minha parceira, uma Chocolatier & Patissier de Londres."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/bruna_fernandes.png",
-        "link": "brunafernandes.guile.ga"
+        "link": "https://brunafernandes.guile.ga"
     },
     {
         "title": "Spotitime",
@@ -78,25 +98,5 @@
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/cuukin-tinder.png",
         "link": "https://cuukintinder.herokuapp.com/"
-    },
-    {
-        "title": "Pomodoro",
-        "description": {
-            "en": "A Desktop App to help you keep track of your studies sessions and be more productive. Build on Python.",
-            "fr": "Une appli desktop qui vous aide en votres études et augmente votre productivité. Construit en Pyhton.",
-            "pt": "Uma aplicação desktop que te ajuda a manter seu ritmo de estudo constante e ser mais produtivo. Escrito em Python."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/pomodoro.PNG",
-        "link": "https://github.com/guilevieiram/100_days/tree/main/pomodoro"
-    },
-    {
-        "title": "Python Arcade",
-        "description": {
-            "en": "Pong, Snake and Road Crossing, all built on Python",
-            "fr": "Pong, Snake et Road Crossing, tout construit en Python.",
-            "pt": "Pong, o 'Jogo da Cobrinha' e 'Road crossing', tudo construido em Python."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/arcade.PNG",
-        "link": "https://github.com/guilevieiram/100_days"
     }
 ]

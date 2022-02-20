@@ -10,6 +10,11 @@
         "link": "https://reactjs.org/"
     },
     {
+        "name": "TypeScript",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/typescript.svg",
+        "link": "https://www.javascript.com/"
+    },
+    {
         "name": "JavaScript",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/javascript.png",
         "link": "https://www.javascript.com/"
@@ -20,17 +25,12 @@
         "link": "https://www.w3.org/Style/CSS/Overview.en.html"
     },
     {
-        "name": "HTML",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/html.svg",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        "name": "TailwindCSS",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
     },
     {
-        "name": "Flask",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/flask.svg",
-        "link": "https://flask.palletsprojects.com/en/2.0.x/"
-    },
-    {
-        "name": "Postgresql",
+        "name": "PostgreSQL",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/postgresql.svg",
         "link": "https://www.postgresql.org/"
     },
