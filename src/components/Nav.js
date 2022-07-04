@@ -142,7 +142,7 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
                             }}>{texts.navbar[language.sign][2]}</p>
                             <a href={
                                 language.sign === "fr" ? cvFr : cvEn
-                            } download={'pdf'} target="_blank" rel="noopener noreferrer" >{texts.cv[language.sign]}</a>
+                            } download={'Guile_Vieira-CV'} target="_blank" rel="noopener noreferrer" >{texts.cv[language.sign]}</a>
                             <form action="">
                             <select name="language-form" id="language-form"
                                 onChange={(event) => {
