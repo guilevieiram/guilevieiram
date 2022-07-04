@@ -1,9 +1,19 @@
 [
     {
+        "title": "eSanus",
+        "description": {
+            "en": "A way to revolutionize the health-tech industry in Brazil by personalizing user experience and optimizing clinics assets. Front-End dev and project manager for Sanus. ",
+            "fr": "Une façon de révolutionner l'industrie health-tech au Brésil en personnalisant l’expérience de l'utilisateur et optimisant les actifs des cliniques. Dev Front-End et manager de projets chez Sanus.",
+            "pt": "Uma maneira de revolucionar a indústria health-tech no Brasil, personalizando a jornada do usuário e optimizando o capital de clínicas. Dev Front-End e project manager na Sanus."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/esanus.png",
+        "link": "https://esanus.com.br"
+    },
+    {
         "title": "Voca",
         "description": {
             "en": "A language learning web application that allows you to learn new vocabulary using state of the art Machine Learning (Natural Language Processing).",
-            "fr": "Une appli d'apprentissage de langues que vous permet d'apprendre du vocabulaire en utilisant des algorithms d'Apprentissage Automatique dde pointe (NLP).",
+            "fr": "Une appli d'apprentissage de langues que vous permet d'apprendre du vocabulaire en utilisant des algorithms d'Apprentissage Automatique de pointe (NLP).",
             "pt": "Um aplicativo web de linguas que permite que você aprenda novo vocabulário utilizando algoritmos de Machine Learning de ponta."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/voca.png",
@@ -58,16 +68,6 @@
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/decatmanhaes.png",
         "link": "https://guilevieiram.github.io/decatmanhaes/"
-    },
-    {
-        "title": "To Do App",
-        "description": {
-            "en": "A desktop todo app that built from scratch on Python that features local and cloud storage.",
-            "fr": "Une application desktop de liste de chose à faire, construit en Python, cela comporte un stockage local et cloud.",
-            "pt": "Uma aplicação de tarefas desktop escrito em Python que conta com armazenamento local e em nuvem. "
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/todo.PNG",
-        "link": "https://github.com/guilevieiram/todo_app"
     },
     {
         "title": "Recipe Sorting AI",

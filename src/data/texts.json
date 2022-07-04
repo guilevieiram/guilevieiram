@@ -69,9 +69,14 @@
         "fr": "Score:",
         "pt": "Pontos:"
     },
+    "cv":{
+        "en": "CV",
+        "fr": "CV",
+        "pt": "CV"
+    },
     "aboutText": {
         "en": [
-            "Engineering Student at École Polytechnique de Paris specialized in Software Development. Experiences in FullStack dev, Design, Natural Language Processing, Data Science and Product Management.", 
+            "Engineering Student at École Polytechnique de Paris specialized in Software Development. Experiences in FullStack dev, Design, Natural Language Processing and Product Management.", 
             "Having extensive communication and problem solving skills, I prosper in creative and open environments, both in solo activities and in group. Though my international background, having worked in Brazil, UK and living in France, I had the chance to participate in several projects with very diverse teams. Fluent English and advanced French help with those kinds of challenges.",
             "At ease with Python and TypeScript/JavaScript for backend and frontend development. Familiar with frameworks like React, React Native, Flask and many others. Knowledge in Amazon AWS’s DevOps systems as well as Heroku’s.  SQL databases (specially PostgreSQL), linux and bash scripting are a part of my toolbox. ",
             "Open to work in interesting projects that challenge my capabilities and push me forward in this never ending learning journey of development!"
@@ -85,7 +90,7 @@
         ],
 
         "pt": [
-            "Estudante de Engenharia na École Polytechnique de Paris com especialização em Desenvolvimento de Software. Experiencia em dev FullStack, Design, Processamento de Linguagem Natural (NLP), Ciência de Dados e Gestão de Projetos.",
+            "Estudante de Engenharia na École Polytechnique de Paris com especialização em Desenvolvimento de Software. Experiencia em dev FullStack, Design, Processamento de Linguagem Natural (NLP) e Gestão de Projetos.",
             "Por ter extensas capacidades de comunicação e resolução de problemas, eu prospero em ambientes criativos, tanto sozinho quanto em grupo. A vida international, tendo trabalhado no Brasil, no Reino Unido e agora morando na França, me possibilitou participar em diversos projetos com equipes dos mais diferentes países. Inglês fluente e Francês avançado com certeza ajudaram.",
             "À vontade com Python e TypoScript/JavaScript para desenvolvimento back e front, respectivamente. Familiarizado com frameworks como React, React Native, Flask e várias outras. Conhecimento em DevOps pela Amazon AWS e pelo Heroku. Bases de dados SQL (especialmente PostgreSQL), sistemas Linux e bash são também parte da minha caixa de ferramentas.",
             "Aberto para trabalhar em projetos interessantes e que me desafiem, me incentivanto a continuar nessa jornada interminável de aprendizado."

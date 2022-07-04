@@ -23,6 +23,9 @@ import blobSideNavBlue from '../images/blob-side-nav-blue.png';
 
 import languages from '../data/languages.json';
 import texts from '../data/texts.json';
+import config from '../config';
+import cvEn from '../data/CV-en.pdf';
+import cvFr from '../data/CV-fr.pdf';
 
 
 
@@ -39,7 +42,7 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
     }
 
     const findLanguage = (sign) => {
-        let selectedLang = 'fr';
+        let selectedLang = config.mainLanguage;
         languages.forEach((lang) => {
             if(sign === lang.sign){selectedLang = lang}
         })
@@ -137,6 +140,9 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
                                 scrollContact();
                                 handleSetSidebar();
                             }}>{texts.navbar[language.sign][2]}</p>
+                            <a href={
+                                language.sign === "fr" ? cvFr : cvEn
+                            } download={'pdf'} target="_blank" rel="noopener noreferrer" >{texts.cv[language.sign]}</a>
                             <form action="">
                             <select name="language-form" id="language-form"
                                 onChange={(event) => {

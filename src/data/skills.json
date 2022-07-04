@@ -20,11 +20,6 @@
         "link": "https://www.javascript.com/"
     },
     {
-        "name": "CSS",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/css.svg",
-        "link": "https://www.w3.org/Style/CSS/Overview.en.html"
-    },
-    {
         "name": "TailwindCSS",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/tailwindcss.svg",
         "link": "https://tailwindcss.com/"
