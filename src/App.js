@@ -28,7 +28,7 @@ function App() {
 
 	const [showMinigames, setShowMinigames] = useState(false);
     const [sideBar, setSideBar] = useState(false);
-	const [language, setLanguage] = useState(languages[1]);
+	const [language, setLanguage] = useState(languages[0]); //main language
 
 	const scrollToSection = (element) => {        
 		window.scrollTo({
