@@ -26,12 +26,12 @@
     },
     {
         "name": "Vue",
-        "image": "https://raw.githubusercontent.com/guilevieiram/guilevieiram/b4e2a19f6ca1cb5717bc584ca0022c7ca43bf0ed/src/images/skills-logos/vue.jpg",
+        "image": "https://raw.githubusercontent.com/guilevieiram/guilevieiram/b4e2a19f6ca1cb5717bc584ca0022c7ca43bf0ed/src/images/skills-logos/vue.svg",
         "link": "https://vuejs.org/"
     },
     {
         "name": "Redux",
-        "image": "https://raw.githubusercontent.com/guilevieiram/guilevieiram/b4e2a19f6ca1cb5717bc584ca0022c7ca43bf0ed/src/images/skills-logos/redux.jpg",
+        "image": "https://raw.githubusercontent.com/guilevieiram/guilevieiram/b4e2a19f6ca1cb5717bc584ca0022c7ca43bf0ed/src/images/skills-logos/redux.svg",
         "link": "https://redux.js.org/"
     },
     {
