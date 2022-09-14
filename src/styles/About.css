@@ -16,6 +16,7 @@
 }
 .About p {
     font-size: 0.9rem;
+    text-align: justify;
     margin: 0.5rem 0;
     text-shadow: 2px 2px 8px black;
 }
