@@ -20,9 +20,9 @@
         "pt": "Ei! <br>Me chamo <br>Guile!"
     },
     "title": {
-        "en": "Software Development | Web Development",
-        "fr": "Développement de Logiciels | Développement Web",
-        "pt": "Desenvolvimento de Software | Desenvolvimento Web"
+        "en": "Software Development | Machine Learning",
+        "fr": "Développement de Logiciels | Apprentissage Automatique",
+        "pt": "Desenvolvimento de Software | Machine Learning"
     },
     "contactCall":{
         "en": "Get in touch!",
@@ -61,7 +61,7 @@
     },
     "tictactoe":{
         "en": ["Its a tie.", "You won!!", "You've lost!"],
-        "fr": ["C'est une cravatte.", "Vous être gagné!!", "Dommage... Vous être perdu."],
+        "fr": ["C'est une cravatte.", "Vous avez gagné!!", "Dommage... Vous avez perdu."],
         "pt": ["É um empate.", "Você ganhou!", "Não foi dessa vez..."]
     },
     "score":{
