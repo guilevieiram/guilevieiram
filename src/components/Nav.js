@@ -25,7 +25,6 @@ import languages from '../data/languages.json';
 import texts from '../data/texts.json';
 import config from '../config';
 import cvEn from '../data/CV-en.pdf';
-import cvFr from '../data/CV-fr.pdf';
 
 
 
@@ -140,9 +139,7 @@ function Nav ({language, setLanguage, scrollAbout, scrollProjects, scrollContact
                                 scrollContact();
                                 handleSetSidebar();
                             }}>{texts.navbar[language.sign][2]}</p>
-                            <a href={
-                                language.sign === "fr" ? cvFr : cvEn
-                            } download={'Guile_Vieira-CV'} target="_blank" rel="noopener noreferrer" >{texts.cv[language.sign]}</a>
+                            <a href={cvEn} download={'Guile_Vieira-CV'} target="_blank" rel="noopener noreferrer" >{texts.cv[language.sign]}</a>
                             <form action="">
                             <select name="language-form" id="language-form"
                                 onChange={(event) => {

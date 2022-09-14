@@ -5,24 +5,9 @@
         "link": "https://www.python.org/"
     },
     {
-        "name": "React",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/react.svg",
-        "link": "https://reactjs.org/"
-    },
-    {
-        "name": "TypeScript",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/typescript.svg",
-        "link": "https://www.javascript.com/"
-    },
-    {
-        "name": "JavaScript",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/javascript.png",
-        "link": "https://www.javascript.com/"
-    },
-    {
-        "name": "TailwindCSS",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/tailwindcss.svg",
-        "link": "https://tailwindcss.com/"
+        "name": "Django",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/django.svg",
+        "link": "https://www.djangoproject.com/"
     },
     {
         "name": "PostgreSQL",
@@ -30,14 +15,33 @@
         "link": "https://www.postgresql.org/"
     },
     {
-        "name": "Heroku",
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/skills-logos/heroku.png",
-        "link": "https://www.heroku.com/"
-    },
-    {
         "name": "AWS",
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/48ca8b41082f32649cad8c90c8383752a6ab3caf/src/images/skills-logos/aws.svg",
         "link": "https://aws.amazon.com/"
+    },
+    {
+        "name": "React",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/react.svg",
+        "link": "https://reactjs.org/"
+    },
+    {
+        "name": "Vue",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/vue.jpg",
+        "link": "https://vuejs.org/"
+    },
+    {
+        "name": "Redux",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/4c3a12748e74d13745cc8b88c6bab13626bfb525/src/images/skills-logos/redux.jpg",
+        "link": "https://redux.js.org/"
+    },
+    {
+        "name": "TypeScript",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/typescript.svg",
+        "link": "https://www.javascript.com/"
+    },
+    {
+        "name": "TailwindCSS",
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/cd683d40852462b9d5ceb3ca7f3185083b60a5af/src/images/skills-logos/tailwindcss.svg",
+        "link": "https://tailwindcss.com/"
     }
-
 ]

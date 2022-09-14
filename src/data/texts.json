@@ -76,24 +76,27 @@
     },
     "aboutText": {
         "en": [
-            "Engineering Student at École Polytechnique de Paris specialized in Software Development. Experiences in FullStack dev, Design, Natural Language Processing and Product Management.", 
-            "Having extensive communication and problem solving skills, I prosper in creative and open environments, both in solo activities and in group. Though my international background, having worked in Brazil, UK and living in France, I had the chance to participate in several projects with very diverse teams. Fluent English and advanced French help with those kinds of challenges.",
-            "At ease with Python and TypeScript/JavaScript for backend and frontend development. Familiar with frameworks like React, React Native, Flask and many others. Knowledge in Amazon AWS’s DevOps systems as well as Heroku’s.  SQL databases (specially PostgreSQL), linux and bash scripting are a part of my toolbox. ",
-            "Open to work in interesting projects that challenge my capabilities and push me forward in this never ending learning journey of development!"
+            "Engineering Student at École Polytechnique de Paris with emphasis on Computer Science. Eager to always be learning, facing new challenges and solving problems. ",
+            "Vast communications and teamwork skills, having led (and participated in) engineering and development teams in side-projects and enterprises. Fluent in English, French and Portuguese, inclined to prosper in diverse environments with coworkers of different backgrounds.",
+            "Technically competent, having experience with Software and Web development (both FrontEnd and BackEnd), Machine Learning and NLP (Natural Language Processing). Strong academic background in Computer Science and Applied Mathematics subjects. ",
+            "At ease with Python, JavaScript, TypeScript and Java, utilising frameworks like Django, Flask, Numpy, Scikit Learn, Pandas, Torch (in the Python ecosystem), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex and Vuetify (in the Java/TypeScript domaine).",
+            "Designed, built and maintained software for startups, enterprises and university projects creating value for the team and developing long-term efficient solutions for real world problems."
         ],
 
         "fr": [
-            "Étudiant d'Ingénieur à l'École Polytechnique de Paris avec spécialisation dans Development de Logiciels. Expérience dans dev FullStack, Design, Traitement du Langage Naturel e Gestion de Produits.",
-            "Vastes compétences en communication et résolution de problèmes, je prospère dans des environnements créatifs et ouverts, tout seule ou bien en équipe. Mon parcours international, ayant travaillé au Brésil, au Royaume-uni et maintenant en vivent en France, j'ai eu l'opportunité de participer dans plusieurs projets avec des équipes très divers. Les niveaux fluent en Anglais et Avancé en Français m'ont beaucoup aidé avec ces défis. ",
-            "À l'aise avec Python et TypeScript/JavaScript pour le développement back et front. Familiarisé avec les frameworks React, React Native, Flask et autres. Connaissance des systèmes d'Amazon AWS et de Heroku pour DevOps. Les bases de donnés SQL (surtout PostgreSQL), Linux et bash font aussi partie de boite d'outils.",
-            "Je suis ouvert pour travailler dans des projets intéressants qui me défient et qui me motivent à continuer mon interminable parcours d'apprentissage."
+            "Élève ingénieur à l'École Polytechnique de Paris spécialisé en Informatique et Mathématiques Appliqués. Désireux de toujours apprendre, de relever de nouveaux défis et de résoudre des problèmes.",
+            "Vastes compétences en communication et en travail d'équipe, ayant dirigé (et participé) à des équipes d'ingénierie et de développement dans des projets secondaires et des entreprises. Parfaite maîtrise de l'anglais, du français et du portugais, incliné à prospérer dans des environnements diversifiés avec des collègues de différents horizons.",
+            "Compétent sur le plan technique, ayant de l'expérience dans le développement de logiciels et de sites Web (FrontEnd et BackEnd), l'apprentissage automatique et le traitement du langage naturel (NLP). Solide formation universitaire en informatique et en mathématiques appliquées.",
+            "À l'aise avec Python, JavaScript, TypeScript et Java, utilisant des frameworks comme Django, Flask, Numpy, Scikit Learn, Pandas, Torch (dans l'écosystème Python), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex et Vuetify (dans le domaine Java/TypeScript).",
+            "Conception, construction et maintenance de logiciels pour des startups, des entreprises et des projets universitaires, créant de la valeur pour l'équipe et développant des solutions efficaces à long terme pour des problèmes du monde réel."
         ],
 
         "pt": [
-            "Estudante de Engenharia na École Polytechnique de Paris com especialização em Desenvolvimento de Software. Experiencia em dev FullStack, Design, Processamento de Linguagem Natural (NLP) e Gestão de Projetos.",
-            "Por ter extensas capacidades de comunicação e resolução de problemas, eu prospero em ambientes criativos, tanto sozinho quanto em grupo. A vida international, tendo trabalhado no Brasil, no Reino Unido e agora morando na França, me possibilitou participar em diversos projetos com equipes dos mais diferentes países. Inglês fluente e Francês avançado com certeza ajudaram.",
-            "À vontade com Python e TypoScript/JavaScript para desenvolvimento back e front, respectivamente. Familiarizado com frameworks como React, React Native, Flask e várias outras. Conhecimento em DevOps pela Amazon AWS e pelo Heroku. Bases de dados SQL (especialmente PostgreSQL), sistemas Linux e bash são também parte da minha caixa de ferramentas.",
-            "Aberto para trabalhar em projetos interessantes e que me desafiem, me incentivanto a continuar nessa jornada interminável de aprendizado."
+            "Estudante de Engenharia na École Polytechnique de Paris com ênfase em Ciência da Computação. Ansioso para estar sempre aprendendo, enfrentando novos desafios e resolvendo problemas.",
+            "Vastas habilidades de comunicação e trabalho em equipe, tendo liderado (e participado) equipes de engenharia e desenvolvimento em projetos e empresas paralelas. Fluente em inglês, francês e português, inclinado a prosperar em ambientes diversos, com colegas de trabalho de diferentes origens.",
+            "Tecnicamente competente, tendo experiência com desenvolvimento de Software e Web (tanto FrontEnd como BackEnd), Machine Learning e NLP (Natural Language Processing). Forte formação acadêmica em Ciências da Computação e Matemática Aplicada.",
+            "À vontade com Python, JavaScript, TypeScript e Java, utilizando frameworks como Django, Flask, Numpy, Scikit Learn, Pandas, Torch (no ecossistema Python), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex e Vuetify (em JavaScript/TypeScript).",
+            "Projetei, construí e mantive software para startups, empresas e projetos universitários criando valor para as equipes e desenvolvendo soluções eficientes a longo prazo para problemas do mundo real."
         ]
     }
 }
