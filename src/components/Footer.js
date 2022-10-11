@@ -16,7 +16,7 @@ function Footer({language}) {
     return (
         <div className="Footer">
             <p>
-                © Guile Vieira - 2021
+                © Guile Vieira - 2022
             </p>
 
             <p>
