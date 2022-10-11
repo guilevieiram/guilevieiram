@@ -19,6 +19,7 @@ import MiniGames from './components/MiniGames';
 import languages from './data/languages.json';
 
 // to deploy page: npm run deploy
+// comment
 
 function App() {
 
