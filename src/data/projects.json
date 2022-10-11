@@ -1,4 +1,15 @@
 [
+
+    {
+        "title": "FlySkyler",
+        "description": {
+            "en": "Full Stack Engineer in this Brazilian Tourism Start-up that provides the best user experience with great customization and prices. Developed and extended their internal system.",
+            "fr": "Ingénieur Full Stack dans cette startup brésilienne du tourisme qui offre la meilleure expérience utilisateur avec une grande personnalisation et des prix. Développement et extension de leur système interne.",
+            "pt": "Engenheiro Full Stack nesta Start-up Turística Brasileira que proporciona a melhor experiência de usuário com grande customização e preços. Desenvolvi e ampliei o sistema interno."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/skyler.png",
+        "link": "https://flyskyler.com"
+    },
     {
         "title": "eSanus",
         "description": {
@@ -62,7 +73,7 @@
     {
         "title": "ClassApp",
         "description": {
-            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collecion for the Recipe Sorting AI.",
+            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collection for the Recipe Sorting AI.",
             "fr": "Une application desktop simple pour classifie méthodes de recettes. Utilisé comme point de collecte de data pour la IA de classification de recette.",
             "pt": "Uma aplicação desktop simples para classificação de receitas de acordo com suas técnicas culinárias. Ponto de coleção de dados para o treinamento de uma IA."
         },
@@ -72,7 +83,7 @@
     {
         "title": "Cuukin Tinder",
         "description": {
-            "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/deslike model.",
+            "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/dislike model.",
             "fr": "Tinder pour nourriture! Une plat-form web qui génère des recommendations d'accord avec les préfèrence des utilisateurs, dans un modèle Tider: j'aime / je n'aime pas. ",
             "pt": "Tinder... mas pra comida! Uma plataforma web feita para gerar recomendações de pratos para os usuários dependendo dos seus gostos individuais, em um sistema tipo Tinder de gosto/não gosto."
         },
@@ -82,21 +93,11 @@
     {
         "title": "Bruna Fernandes Portifolio",
         "description": {
-            "en": "A web based portifolio with an unique and minimalistic design made for my partner, a Chocolatier & Patissier based in London.",
+            "en": "A web based portfolio with an unique and minimalist design made for my partner, a Chocolatier & Patissier based in London.",
             "fr": "Un résumé en ligne avec une conception unique et minimaliste qui j'ai réalisé pour ma petite amie, a Chocolatière & Patissière à Londres.",
             "pt": "Um portifolio web com um design único e minimalista feito para a minha parceira, uma Chocolatier & Patissier de Londres."
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/bruna_fernandes.png",
         "link": "https://brunafernandes.guilevieiram.dev"
-    },
-    {
-        "title": "Curriculum",
-        "description": {
-            "en": "A web CV build from scratch for my father.",
-            "fr": "Un CV web construit du zéro pour mon papa.",
-            "pt": "Um curriculo web construido do zero para o meu pai."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/decatmanhaes.png",
-        "link": "https://guilevieiram.github.io/decatmanhaes/"
     }
 ]
