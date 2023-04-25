@@ -4,7 +4,7 @@
 </h1>
 </div>
 
-## I'm a 21yo Engineering student at École Polytechnique de Paris, specialized in Computer Science and Applied Mathematics.
+## I'm a 22yo Engineering student at École Polytechnique de Paris, specialized in Computer Science.
 
 
 
