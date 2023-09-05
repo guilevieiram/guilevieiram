@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8d3b519.chunk.css",
-    "main.js": "/static/js/main.d83c09aa.chunk.js",
-    "main.js.map": "/static/js/main.d83c09aa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9e200ae1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9e200ae1.js.map",
-    "static/js/2.b7e5801c.chunk.js": "/static/js/2.b7e5801c.chunk.js",
-    "static/js/2.b7e5801c.chunk.js.map": "/static/js/2.b7e5801c.chunk.js.map",
-    "static/js/3.679de929.chunk.js": "/static/js/3.679de929.chunk.js",
-    "static/js/3.679de929.chunk.js.map": "/static/js/3.679de929.chunk.js.map",
+    "main.css": "/static/css/main.58a4cf44.chunk.css",
+    "main.js": "/static/js/main.8076a47c.chunk.js",
+    "main.js.map": "/static/js/main.8076a47c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0844af03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0844af03.js.map",
+    "static/js/2.ea06a2fe.chunk.js": "/static/js/2.ea06a2fe.chunk.js",
+    "static/js/2.ea06a2fe.chunk.js.map": "/static/js/2.ea06a2fe.chunk.js.map",
+    "static/js/3.3013884d.chunk.js": "/static/js/3.3013884d.chunk.js",
+    "static/js/3.3013884d.chunk.js.map": "/static/js/3.3013884d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a8d3b519.chunk.css.map": "/static/css/main.a8d3b519.chunk.css.map",
-    "static/js/2.b7e5801c.chunk.js.LICENSE.txt": "/static/js/2.b7e5801c.chunk.js.LICENSE.txt",
-    "static/media/CV-en.f928563e.pdf": "/static/media/CV-en.f928563e.pdf",
+    "static/css/main.58a4cf44.chunk.css.map": "/static/css/main.58a4cf44.chunk.css.map",
+    "static/js/2.ea06a2fe.chunk.js.LICENSE.txt": "/static/js/2.ea06a2fe.chunk.js.LICENSE.txt",
+    "static/media/CV-en.f1367898.pdf": "/static/media/CV-en.f1367898.pdf",
     "static/media/balls-background.983c4853.png": "/static/media/balls-background.983c4853.png",
     "static/media/blob-social-blue.25ee7b81.png": "/static/media/blob-social-blue.25ee7b81.png",
     "static/media/blob-social-orange.bade9452.png": "/static/media/blob-social-orange.bade9452.png",
     "static/media/profile_zap.306e7b66.jpeg": "/static/media/profile_zap.306e7b66.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e200ae1.js",
-    "static/js/2.b7e5801c.chunk.js",
-    "static/css/main.a8d3b519.chunk.css",
-    "static/js/main.d83c09aa.chunk.js"
+    "static/js/runtime-main.0844af03.js",
+    "static/js/2.ea06a2fe.chunk.js",
+    "static/css/main.58a4cf44.chunk.css",
+    "static/js/main.8076a47c.chunk.js"
   ]
 }
