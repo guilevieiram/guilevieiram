@@ -1,6 +1,6 @@
-<div style="width: full; display: flex; flex-direction: column; align-items: center; justify-content: space-between">
-<div style="border-radius: 10000px; padding: 10px; ">
-<img src="logo2.svg" style=" height: 120px; " />
+<div style="margin: auto; width: full; display: flex; flex-direction: column; align-items: center; justify-content: space-between" align="center">
+<div style="border-radius: 10000px; padding: 10px;">
+<img src="logo2.svg" style=" height: 120px; margin: 20px" />
 </div>
 
 [![Portifolio](https://img.shields.io/badge/www.guilevieiram.dev-ee7400?style=for-the-badge)](https://guilevieiram.dev)
@@ -16,7 +16,7 @@
 
 <br/>
 <h1 style="margin:auto;">
-Hi! I'm Guile!
+Hi, I'm Guile!
 </h1>
 <br/>
 <br/>
@@ -32,7 +32,7 @@ Hi! I'm Guile!
 
 ## Languages and Tools
 
-<div style="width: full; display: flex; flex-direction: column; align-items: center; justify-content: space-between">
+<div style="margin: auto; width: full; display: flex; flex-direction: column; align-items: center; justify-content: space-between" align="center">
 
 Software Engineering
 
