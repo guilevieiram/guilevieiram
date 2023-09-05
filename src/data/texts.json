@@ -20,9 +20,9 @@
         "pt": "Ei! <br>Me chamo <br>Guile!"
     },
     "title": {
-        "en": "Software Development | Machine Learning",
+        "en": "Software Engineering | Machine Learning",
         "fr": "Développement de Logiciels | Apprentissage Automatique",
-        "pt": "Desenvolvimento de Software | Machine Learning"
+        "pt": "Engenharia de Software | Machine Learning"
     },
     "contactCall":{
         "en": "Get in touch!",
@@ -76,27 +76,19 @@
     },
     "aboutText": {
         "en": [
-            "Engineering Student at École Polytechnique de Paris with emphasis on Computer Science. Eager to always be learning, facing new challenges and solving problems. ",
-            "Vast communications and teamwork skills, having led (and participated in) engineering and development teams in side-projects and enterprises. Fluent in English, French and Portuguese, inclined to prosper in diverse environments with coworkers of different backgrounds.",
-            "Technically competent, having experience with Software and Web development (both FrontEnd and BackEnd), Machine Learning and NLP (Natural Language Processing). Strong academic background in Computer Science and Applied Mathematics subjects. ",
-            "At ease with Python, JavaScript, TypeScript and Java, utilisant frameworks like Django, Flask, Numpy, Scikit Learn, Pandas, Torch (in the Python ecosystem), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex and Vuetify (in the Java/TypeScript domaine).",
-            "Designed, built and maintained software for startups, enterprises and university projects creating value for the team and developing long-term efficient solutions for real world problems."
+            "Engineering Student at École Polytechnique de Paris with emphasis on Computer Science. Eager to always be learning, facing new challenges and solving problems.",
+            "Specialization in Software Engineering and Machine Learning/AI. Strong academic background in  CS and Applied mathematics.",
+            "Vast communications and teamwork skills, having led (and participated in) engineering and development teams in side-projects and enterprises. Fluent in English, French and Portuguese, inclined to prosper in diverse environments with coworkers of different backgrounds."
         ],
-
         "fr": [
-            "Élève ingénieur à l'École Polytechnique de Paris spécialisé en Informatique et Mathématiques Appliqués. Désireux de toujours apprendre, de relever de nouveaux défis et de résoudre des problèmes.",
-            "Vastes compétences en communication et en travail d'équipe, ayant dirigé (et participé) à des équipes d'ingénierie et de développement dans des projets secondaires et des entreprises. Parfaite maîtrise de l'anglais, du français et du portugais, incliné à prospérer dans des environnements diversifiés avec des collègues de différents horizons.",
-            "Compétent sur le plan technique, ayant de l'expérience dans le développement de logiciels et de sites Web (FrontEnd et BackEnd), l'apprentissage automatique et le traitement du langage naturel (NLP). Solide formation universitaire en informatique et en mathématiques appliquées.",
-            "À l'aise avec Python, JavaScript, TypeScript et Java, utilisant des frameworks comme Django, Flask, Numpy, Scikit Learn, Pandas, Torch (dans l'écosystème Python), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex et Vuetify (dans le domaine Java/TypeScript).",
-            "Conception, construction et maintenance de logiciels pour des startups, des entreprises et des projets universitaires, créant de la valeur pour l'équipe et développant des solutions efficaces à long terme pour des problèmes du monde réel."
+            "Étudiant en ingénierie à l'École Polytechnique de Paris avec une spécialisation en informatique. Désireux de toujours apprendre, de relever de nouveaux défis et de résoudre des problèmes",
+            "Spécialisation dans le génie logiciel et l'apprentissage automatique/l'intelligence artificielle. Solide formation académique en informatique et en mathématiques appliquées.",
+            "Vastes compétences en matière de communication et de travail en équipe, ayant dirigé (et participé) à des équipes d'ingénierie et de développement dans le cadre de projets secondaires et d'entreprises. Parlant couramment l'anglais, le français et le portugais, enclin à prospérer dans des environnements divers avec des collègues d'origines différentes."
         ],
-
         "pt": [
-            "Estudante de Engenharia na École Polytechnique de Paris com ênfase em Ciência da Computação. Ansioso para estar sempre aprendendo, enfrentando novos desafios e resolvendo problemas.",
-            "Vastas habilidades de comunicação e trabalho em equipe, tendo liderado (e participado) equipes de engenharia e desenvolvimento em projetos e empresas paralelas. Fluente em inglês, francês e português, inclinado a prosperar em ambientes diversos, com colegas de trabalho de diferentes origens.",
-            "Tecnicamente competente, tendo experiência com desenvolvimento de Software e Web (tanto FrontEnd como BackEnd), Machine Learning e NLP (Natural Language Processing). Forte formação acadêmica em Ciências da Computação e Matemática Aplicada.",
-            "À vontade com Python, JavaScript, TypeScript e Java, utilizando frameworks como Django, Flask, Numpy, Scikit Learn, Pandas, Torch (no ecossistema Python), ReactJS, ReactTS, React Native, Redux, TailwindCSS, Vue, Vuex e Vuetify (em JavaScript/TypeScript).",
-            "Projetei, construí e mantive software para startups, empresas e projetos universitários criando valor para as equipes e desenvolvendo soluções eficientes a longo prazo para problemas do mundo real."
+            "Estudante de Engenharia na École Polytechnique de Paris, com ênfase em Ciência da Computação. Ansioso para estar sempre aprendendo, enfrentando novos desafios e resolvendo problemas.",
+            "Especialização em Engenharia de Software e Aprendizado de Máquina/AI. Sólida formação acadêmica em CS e Matemática Aplicada.",
+            "Vastas habilidades de comunicação e trabalho em equipe, tendo liderado (e participado) de equipes de engenharia e desenvolvimento em projetos paralelos e empresas. Fluente em inglês, francês e português, inclinado a prosperar em ambientes diversos com colegas de trabalho de diferentes origens."
         ]
     }
 }

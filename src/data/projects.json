@@ -1,5 +1,24 @@
 [
-
+    {
+        "title": "Backdoor Detection on Language Models",
+        "description": {
+            "en": "Trained over 4000 GPT models, successfully infected them via Trojan attacks and detected those backdoors using a Meta-neural network.",
+            "fr" : "Entraînement de plus de 4000 modèles GPT, infection réussie par des attaques de chevaux de Troie et détection de ces portes dérobées à l'aide d'un réseau neuronal Meta.",
+            "pt": "Treinei mais de 4.000 modelos GPT, infectou-os com sucesso por meio de ataques de Trojan e detectei esses backdoors usando uma rede meta-neural"
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/psc.jpg",
+        "link": "https://github.com/guilevieiram/psc"
+    },
+    {
+        "title": "Doomicraft",
+        "description": {
+            "en": "Doom + Minecraft. A cross platform First Person Shooter in C++ that imerses you in an infinite and interactable Minecraft world.",
+            "fr" : "Doom + Minecraft. Un jeu de tir à la première personne multiplateforme en C++ qui vous immerge dans un monde Minecraft infini et interactif",
+            "pt": "Doom + Minecraft. Um jogo de tiro em primeira pessoa multiplataforma em C++ que o imerge em um mundo infinito e interativo do Minecraft."
+        },
+        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/doomicraft.png",
+        "link": "https://github.com/guilevieiram/Doomicraft"
+    },
     {
         "title": "FlySkyler",
         "description": {
@@ -51,16 +70,6 @@
         "link": "https://spotitime.guilevieiram.dev"
     },
     {
-        "title": "G-Flight",
-        "description": {
-            "en": "A web app notifies users of the best flight deals to the most wanted locations in the world!",
-            "fr": "Une application web qui notifie les utilisateurs des meilleures offres de vol ",
-            "pt": "Uma aplicação web que notifica os usuários dos voos com melhores preços para os destinos mais cobiçados do mundo!"
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/g-flight.png",
-        "link": "https://gflight.guilevieiram.dev"
-    },
-    {
         "title": "Recipe Sorting AI",
         "description": {
             "en": "A Natural Language Processing AI that sorts recipes accordingly to their culinary techniques.",
@@ -69,35 +78,5 @@
         },
         "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/recipe-sorting.png",
         "link": "https://github.com/guilevieiram/recipe_sorting"
-    },
-    {
-        "title": "ClassApp",
-        "description": {
-            "en": "Simple Desktop app for classifying recipe methods in their culinary techniques. Used as a data collection for the Recipe Sorting AI.",
-            "fr": "Une application desktop simple pour classifie méthodes de recettes. Utilisé comme point de collecte de data pour la IA de classification de recette.",
-            "pt": "Uma aplicação desktop simples para classificação de receitas de acordo com suas técnicas culinárias. Ponto de coleção de dados para o treinamento de uma IA."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/classapp.PNG",
-        "link": "https://github.com/guilevieiram/classapp"
-    },
-    {
-        "title": "Cuukin Tinder",
-        "description": {
-            "en": "Tider for food! A web platform designed to create recipe recommendations based on the user preferences, on a Tinder like/dislike model.",
-            "fr": "Tinder pour nourriture! Une plat-form web qui génère des recommendations d'accord avec les préfèrence des utilisateurs, dans un modèle Tider: j'aime / je n'aime pas. ",
-            "pt": "Tinder... mas pra comida! Uma plataforma web feita para gerar recomendações de pratos para os usuários dependendo dos seus gostos individuais, em um sistema tipo Tinder de gosto/não gosto."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/cuukin-tinder.png",
-        "link": "https://cuukintinder.herokuapp.com/"
-    },
-    {
-        "title": "Bruna Fernandes Portifolio",
-        "description": {
-            "en": "A web based portfolio with an unique and minimalist design made for my partner, a Chocolatier & Patissier based in London.",
-            "fr": "Un résumé en ligne avec une conception unique et minimaliste qui j'ai réalisé pour ma petite amie, a Chocolatière & Patissière à Londres.",
-            "pt": "Um portifolio web com um design único e minimalista feito para a minha parceira, uma Chocolatier & Patissier de Londres."
-        },
-        "image": "https://raw.githubusercontent.com/guilevieiram/portifolio/main/src/images/projects-images/bruna_fernandes.png",
-        "link": "https://brunafernandes.guilevieiram.dev"
     }
 ]

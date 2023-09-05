@@ -1,0 +1,6 @@
+<svg width="227" height="204" viewBox="0 0 227 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M155 45C155 67.0914 137.091 85 115 85C92.9086 85 75 67.0914 75 45C75 22.9086 92.9086 5 115 5C137.091 5 155 22.9086 155 45Z" stroke="black" stroke-width="10"/>
+<path d="M155 124C155 165.421 121.421 199 80 199C38.5786 199 5 165.421 5 124C5 84.0895 36.1737 51.46 75.5 49.1328" stroke="black" stroke-width="10"/>
+<path d="M155 45.5L155 124" stroke="black" stroke-width="10"/>
+<line x1="70" y1="49" x2="227" y2="49" stroke="black" stroke-width="10"/>
+</svg>
